@@ -1,28 +1,25 @@
 package com.khoahung.cmc.dao;
 
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 import org.bson.Document;
-import org.bson.json.JsonMode;
-import org.bson.json.JsonWriterSettings;
-import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.khoahung.cmc.entity.Data;
+import com.khoahung.cmc.entity.LogData;
+import com.khoahung.cmc.repository.JPALogRepository;
 import com.mongodb.ConnectionString;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoClient;
@@ -30,11 +27,12 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.MongoClientSettings;
-import static com.mongodb.client.model.Filters.eq;
-import static com.mongodb.client.model.Projections.fields;
-import static com.mongodb.client.model.Projections.include;
 @Component
 public class CollectionDataDao {
+	
+	@Autowired
+	private JPALogRepository logRepository;
+	
 	public ResponseEntity<String> getDataFromMongoDB() {
 		ConnectionString connString = new ConnectionString(
 			    "mongodb://root:123123Abc@localhost:27017/admin?retryWrites=true&w=majority"
@@ -48,25 +46,49 @@ public class CollectionDataDao {
 			MongoCollection<Document> collection  = database.getCollection("khoahung");
 			
 			FindIterable<Document> iterDoc = collection.find();
-			Iterator it = iterDoc.iterator();
-			List<Document> list = new ArrayList();
+			Iterator<Document> it = iterDoc.iterator();
+			List<Document> list = new ArrayList<Document>();
+			Set<String> keySet = new HashSet<String>();
+					
+			Iterable<LogData> dataH2 =logRepository.findAll();
+			for (LogData item : dataH2) {
+				keySet.add(item.getRecordId());
+		    }
 			while (it.hasNext()) {
-				list.add((Document)it.next());
+				Document d = (Document)it.next();
+				if(keySet.contains(d.get("_id").toString())) {
+					System.out.println(d.get("_id")+ " has synchronize");
+					continue;
+				}else {
+					System.out.println("this id = "+d.get("_id")+" has copy");
+					LogData log = new LogData();
+					log.setRecordId(d.get("_id").toString());
+					logRepository.save(log);
+					list.add(d);
+				}
 			}
+			Data data = new Data();
+			data.setList(list);
 			
-	        ObjectMapper obj = new ObjectMapper();
-    		HttpHeaders headers = new HttpHeaders();
-    		headers.setContentType(MediaType.APPLICATION_JSON);
-    		RestTemplate restTemplate = new RestTemplate();
-    		HttpEntity<String> requestEntity=null;
+			RestTemplate restTemplate = new RestTemplate();
+			
+	        HttpHeaders headers = new HttpHeaders();
+	        headers.set("X-COM-PERSIST", "true");    
+	        headers.set("X-COM-LOCATION", "USA");
+	        
+    		
+    		HttpEntity<Data> requestEntity = new HttpEntity<>(data, headers);
+    		ResponseEntity<String> rateResponse = null;
 			try {
-				requestEntity = new HttpEntity<String>(obj.writeValueAsString(list),headers);
-			} catch (JsonProcessingException e) {
+				rateResponse = restTemplate.postForEntity(new URI("http://localhost:8082/getData"),requestEntity,String.class);
+			} catch (RestClientException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (URISyntaxException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-    		ResponseEntity<String> rateResponse = restTemplate.exchange("http://localhost:8082/getData", HttpMethod.POST, requestEntity,String.class);
-	       
-	        return ResponseEntity.ok("Success");
+			System.out.println(rateResponse.getBody());
+	        return ResponseEntity.ok(rateResponse.getBody());
 	}
 }

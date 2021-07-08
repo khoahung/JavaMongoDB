@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.khoahung.cmc.entity.Data;
 import com.khoahung.cmc.service.CollectionDataService;
 
 @RestController
@@ -22,15 +23,8 @@ public class MainController {
 	@Autowired
 	CollectionDataService service;
 	
-	@RequestMapping(value = "/getData", method = RequestMethod.POST)
-	public ResponseEntity<String> getEmployees(@RequestBody List<Document> json) {
-		ObjectMapper obj = new ObjectMapper();
-		try {
-			return service.getDataFromMongo(obj.writeValueAsString(json));
-		} catch (JsonProcessingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Error");
+	@RequestMapping(value = "/getData", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	public ResponseEntity<String> getEmployees(@RequestBody Data data) {
+		return service.getDataFromMongo(data);
 	}
 }

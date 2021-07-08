@@ -5,6 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 
 import com.khoahung.cmc.dao.CollectionDataDao;
+import com.khoahung.cmc.entity.Data;
 import com.khoahung.cmc.service.CollectionDataService;
 
 @Repository
@@ -14,9 +15,9 @@ public class CollectionDataServiceImpl implements CollectionDataService{
 	CollectionDataDao dao;
 	
 	@Override
-	public ResponseEntity<String> getDataFromMongo(String json) {
+	public ResponseEntity<String> getDataFromMongo(Data data) {
 		// TODO Auto-generated method stub
-		return dao.getDataFromMongoDB(json);
+		return dao.getDataFromMongoDB(data);
 	}
 
 }

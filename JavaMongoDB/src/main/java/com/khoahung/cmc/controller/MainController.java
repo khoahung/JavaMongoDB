@@ -15,7 +15,7 @@ public class MainController {
 	@Autowired
 	CollectionDataService service;
 	
-	@RequestMapping(value = "/getData", method = RequestMethod.GET)
+	@RequestMapping(value = "/synchronizeData", method = RequestMethod.GET)
 	public ResponseEntity<String> getEmployees() {
 		return service.getDataFromMongo();
 	}
