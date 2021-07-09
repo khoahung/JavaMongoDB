@@ -92,3 +92,5 @@ public class CollectionDataDao {
 	        return ResponseEntity.ok(rateResponse.getBody());
 	}
 }
+
+
