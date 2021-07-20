@@ -36,20 +36,19 @@ class Agent extends Thread{
 	
 	public void run(){ 	
 		LogProcessingDao logProcessingDao = new LogProcessingDao();
-		while(true) {
-			System.out.println("==============Starting Migration database===================");
-			try {
-				ConnectionString connString = new ConnectionString(
-					    "mongodb://root:123123Abc@localhost:27016/admin?retryWrites=true&w=majority"
-					);
-					MongoClientSettings settings = MongoClientSettings.builder()
-					    .applyConnectionString(connString)
-					    .retryWrites(true)
-					    .build();
-					MongoClient mongoClient = MongoClients.create(settings);
-					MongoDatabase database = mongoClient.getDatabase("rootdb");
-					MongoCollection<Document> collection  = database.getCollection("khoahung");
-					
+		ConnectionString connString = new ConnectionString(
+			    "mongodb://root:123123Abc@localhost:27016/admin?retryWrites=true&w=majority"
+			);
+			MongoClientSettings settings = MongoClientSettings.builder()
+			    .applyConnectionString(connString)
+			    .retryWrites(true)
+			    .build();
+			MongoClient mongoClient = MongoClients.create(settings);
+			MongoDatabase database = mongoClient.getDatabase("rootdb");
+			MongoCollection<Document> collection  = database.getCollection("khoahung");
+			while(true) {
+				System.out.println("==============Starting Migration database===================");
+				try {
 					FindIterable<Document> iterDoc = collection.find();
 					Iterator<Document> it = iterDoc.iterator();
 					List<Document> list = new ArrayList<Document>();
@@ -101,10 +100,10 @@ class Agent extends Thread{
 					
 					System.out.println("==============Finish copy data===================");
 					Thread.sleep(60000);
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
-		}
 	}
 }

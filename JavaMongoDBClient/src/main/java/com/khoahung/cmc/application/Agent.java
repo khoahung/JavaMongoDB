@@ -37,20 +37,19 @@ class Agent extends Thread{
 	
 	public void run(){ 	
 		LogProcessingDao logProcessingDao = new LogProcessingDao();
+		ConnectionString connString = new ConnectionString(
+			    "mongodb://root:123123Abc@localhost:27017/admin?retryWrites=true&w=majority"
+			);
+		MongoClientSettings settings = MongoClientSettings.builder()
+			   .applyConnectionString(connString)
+			    .retryWrites(true)
+			    .build();
+		MongoClient mongoClient = MongoClients.create(settings);
+		MongoDatabase database = mongoClient.getDatabase("rootdb");
+		MongoCollection<Document> collection  = database.getCollection("khoahung");
 		while(true) {
 			System.out.println("==============Starting Migration database===================");
-			try {
-				ConnectionString connString = new ConnectionString(
-					    "mongodb://root:123123Abc@localhost:27017/admin?retryWrites=true&w=majority"
-					);
-					MongoClientSettings settings = MongoClientSettings.builder()
-					    .applyConnectionString(connString)
-					    .retryWrites(true)
-					    .build();
-					MongoClient mongoClient = MongoClients.create(settings);
-					MongoDatabase database = mongoClient.getDatabase("rootdb");
-					MongoCollection<Document> collection  = database.getCollection("khoahung");
-					
+			try {					
 					FindIterable<Document> iterDoc = collection.find();
 					Iterator<Document> it = iterDoc.iterator();
 					List<Document> list = new ArrayList<Document>();
