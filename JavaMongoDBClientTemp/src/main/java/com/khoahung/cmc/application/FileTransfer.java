@@ -48,6 +48,7 @@ public class FileTransfer extends Thread {
 				for (final File fileEntry : file.listFiles()) {
 					if(!fileEntry.isDirectory()) {
 						if(keySet.contains(fileEntry.getName())) {
+							System.out.println("File: "+fileEntry.getName()+ " has synchronize");
 							continue;
 						}
 						MultipartEntityBuilder  builder = MultipartEntityBuilder.create();
