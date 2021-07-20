@@ -41,6 +41,6 @@ public class CollectionDataDao {
 		    	}
 		    }
 
-		    return "Success inserted: "+ count+" document";
+		    return "Success inserted: "+ count +" document";
 	}
 }
