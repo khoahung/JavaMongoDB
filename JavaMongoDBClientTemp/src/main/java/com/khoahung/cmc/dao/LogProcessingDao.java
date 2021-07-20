@@ -12,6 +12,7 @@ import java.util.List;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.khoahung.cmc.entity.LogData;
+import com.khoahung.cmc.entity.LogFile;
 @Transactional
 public class LogProcessingDao{
 	
@@ -33,6 +34,19 @@ public class LogProcessingDao{
     	conn.close();
     }
 
+    @Transactional
+    public void saveFile(LogFile logFile) throws Exception{
+    	Class.forName("org.mariadb.jdbc.Driver");
+    	Connection conn = DriverManager.getConnection( DB_URL, USER, PASS);
+    	PreparedStatement ps= conn.prepareStatement("INSERT INTO LogFile(FileName, updateTime) values(?,?)");
+    	ps.setString(1,logFile.getFileName());
+    	java.sql.Date date = new java.sql.Date(System.currentTimeMillis());
+    	ps.setDate(2,date);
+    	ps.executeUpdate();
+    	ps.close();
+    	conn.close();
+    }
+    
 	public List<LogData> findAll() throws Exception {
 		Class.forName("org.mariadb.jdbc.Driver");
 		Connection conn = DriverManager.getConnection( DB_URL, USER, PASS);
@@ -43,6 +57,22 @@ public class LogProcessingDao{
 			LogData d = new LogData();
 			d.setId(rs.getInt("id"));
 			d.setRecordId(rs.getString("recordId"));
+			d.setUpdateTime(rs.getDate("updateTime"));
+			data.add(d);
+		}
+		conn.close();
+		return data;
+	}
+	public List<LogFile> findAllFileName() throws Exception {
+		Class.forName("org.mariadb.jdbc.Driver");
+		Connection conn = DriverManager.getConnection( DB_URL, USER, PASS);
+		Statement stmt = conn.createStatement();
+		ResultSet rs = stmt.executeQuery("SELECT * FROM LogFile"); 
+		List<LogFile> data = new ArrayList<LogFile>();
+		while(rs.next()) {
+			LogFile d = new LogFile();
+			d.setId(rs.getInt("id"));
+			d.setFileName(rs.getString("FileName"));
 			d.setUpdateTime(rs.getDate("updateTime"));
 			data.add(d);
 		}
