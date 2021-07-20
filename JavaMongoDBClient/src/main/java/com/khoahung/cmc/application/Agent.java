@@ -1,7 +1,12 @@
 package com.khoahung.cmc.application;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.ObjectOutputStream;
+import java.net.HttpURLConnection;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -56,39 +61,43 @@ class Agent extends Thread{
 				    }
 					while (it.hasNext()) {
 						Document d = (Document)it.next();
-						if(keySet.contains(d.get("_id").toString())) {
-							System.out.println(d.get("_id")+ " has synchronize");
+						if(keySet.contains(d.getObjectId("_id").toHexString())) {
+							System.out.println(d.getObjectId("_id").toHexString()+ " has synchronize");
 							continue;
 						}else {
-							System.out.println("this id = "+d.get("_id")+" has copy");
+							System.out.println("this id = "+d.getObjectId("_id").toHexString()+" has copy");
 							LogData log = new LogData();
-							log.setRecordId(d.get("_id").toString());
+							log.setRecordId(d.getObjectId("_id").toHexString());
 							logProcessingDao.save(log);
 							list.add(d);
 						}
 					}
+					if(list.size() == 0) {
+						Thread.sleep(60000);
+						continue;
+					}
 					Data data = new Data();
 					data.setList(list);
 					
-					RestTemplate restTemplate = new RestTemplate();
-					
-			        HttpHeaders headers = new HttpHeaders();
-			        headers.set("X-COM-PERSIST", "true");    
-			        headers.set("X-COM-LOCATION", "USA");
-			        
-		    		
-		    		HttpEntity<Data> requestEntity = new HttpEntity<>(data, headers);
-		    		ResponseEntity<String> rateResponse = null;
-					try {
-						rateResponse = restTemplate.postForEntity(new URI("http://localhost:8082/getData"),requestEntity,String.class);
-					} catch (RestClientException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					} catch (URISyntaxException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+					URL url = new URL("http://localhost:8083/getData");
+					HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+					conn.setDoOutput(true);
+					ObjectOutputStream  writer = new ObjectOutputStream (conn.getOutputStream());
+					writer.writeObject(data);
+					writer.flush();
+					conn.connect();
+					writer.close();
+					BufferedReader br = null;
+					if (100 <= conn.getResponseCode() && conn.getResponseCode() <= 399) {
+					    br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+					} else {
+					    br = new BufferedReader(new InputStreamReader(conn.getErrorStream()));
 					}
-					System.out.println(rateResponse.getBody());	
+					System.out.println("response code:"+conn.getResponseCode());	
+					String strCurrentLine;
+			        while ((strCurrentLine = br.readLine()) != null) {
+			               System.out.println(strCurrentLine);
+			        }	
 					System.out.println("==============Finish copy data===================");
 					Thread.sleep(60000);
 			} catch (Exception e) {

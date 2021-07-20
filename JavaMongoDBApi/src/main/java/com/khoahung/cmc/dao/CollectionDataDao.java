@@ -17,7 +17,7 @@ import static com.mongodb.client.model.Filters.eq;
 @Component
 public class CollectionDataDao {
 	
-	public ResponseEntity<String> getDataFromMongoDB(Data data) {
+	public String getDataFromMongoDB(Data data) {
 		ConnectionString connString = new ConnectionString(
 			    "mongodb://root:123123Abc@localhost:27018/admin?retryWrites=true&w=majority"
 			);
@@ -32,15 +32,13 @@ public class CollectionDataDao {
 			int count=0;
 		    for (Document dbObject : listData)
 		    {
-		    	Document document = collection.find(eq("_id", dbObject.get("_id"))).first();
+		    	Document document = collection.find(eq("_id", dbObject.getObjectId("_id"))).first();
 		    	if (document == null) {
 		    		count++;
 		    		collection.insertOne(dbObject);
 		    	}
 		    }
 
-		    return ResponseEntity.ok("Success inserted: "+ count+" document");
+		    return "Success inserted: "+ count+" document";
 	}
-	
-	
 }

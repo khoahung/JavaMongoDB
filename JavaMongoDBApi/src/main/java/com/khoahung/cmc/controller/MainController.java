@@ -1,6 +1,9 @@
 package com.khoahung.cmc.controller;
 
+import java.io.ObjectInputStream;
 import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
 
 import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,8 +26,20 @@ public class MainController {
 	@Autowired
 	CollectionDataService service;
 	
-	@RequestMapping(value = "/getData", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
-	public ResponseEntity<String> getEmployees(@RequestBody Data data) {
-		return service.getDataFromMongo(data);
+	@Autowired
+	private HttpServletRequest context;
+	
+	@RequestMapping(value = "/getData", method = RequestMethod.POST)
+	public @ResponseBody String getEmployees() {
+		
+		try{
+	        ObjectInputStream obj =  new ObjectInputStream(context.getInputStream());
+	        Data data = (Data)obj.readObject();
+	        return service.getDataFromMongo(data);
+	    }catch(Exception e){
+	        e.printStackTrace();
+	    }
+		return "Not get data base from client";
+		
 	}
 }
