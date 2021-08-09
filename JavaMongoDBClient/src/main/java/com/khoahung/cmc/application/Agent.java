@@ -47,6 +47,7 @@ class Agent extends Thread{
 		MongoClient mongoClient = MongoClients.create(settings);
 		MongoDatabase database = mongoClient.getDatabase("rootdb");
 		MongoCollection<Document> collection  = database.getCollection("khoahung");
+		int count = 0;
 		while(true) {
 			System.out.println("==============Starting Migration database===================");
 			try {					
@@ -58,22 +59,24 @@ class Agent extends Thread{
 					for (LogData item : dataH2) {
 						keySet.add(item.getRecordId());
 				    }
+					
 					while (it.hasNext()) {
 						Document d = (Document)it.next();
 						if(keySet.contains(d.getObjectId("_id").toHexString())) {
 							System.out.println(d.getObjectId("_id").toHexString()+ " has synchronize");
 							continue;
 						}else {
-							System.out.println("this id = "+d.getObjectId("_id").toHexString()+" has copy");
+							count += 1;
+							System.out.println("index = "+ count +" this id = "+d.getObjectId("_id").toHexString()+" has copy");
 							LogData log = new LogData();
 							log.setRecordId(d.getObjectId("_id").toHexString());
 							logProcessingDao.save(log);
 							list.add(d);
 						}
-					}
-					if(list.size() == 0) {
-						Thread.sleep(60000);
-						continue;
+						if(list.size()>=500) {
+							//send 1000 document to server;
+							break;
+						}
 					}
 					Data data = new Data();
 					data.setList(list);
@@ -97,8 +100,13 @@ class Agent extends Thread{
 			        while ((strCurrentLine = br.readLine()) != null) {
 			               System.out.println(strCurrentLine);
 			        }	
+			        if(list.size() != 0) {
+			        	list = new ArrayList<Document>();
+			        	Thread.sleep(60000);
+						continue;
+					}
 					System.out.println("==============Finish copy data===================");
-					Thread.sleep(60000);
+					
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
