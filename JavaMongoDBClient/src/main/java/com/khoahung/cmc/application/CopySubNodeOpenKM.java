@@ -1,75 +1,81 @@
 package com.khoahung.cmc.application;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Base64;
 import java.util.List;
 import java.util.Properties;
 
-import org.bson.Document;
+import org.apache.log4j.Logger;
 import org.bson.types.Binary;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.khoahung.cmc.dao.LogOpenKMDao;
 import com.khoahung.cmc.dao.LogProcessingDao;
 import com.khoahung.cmc.entity.DataProperties;
 import com.khoahung.cmc.entity.LogData;
+import com.khoahung.cmc.entity.LogOpenKM;
+import com.khoahung.cmc.entity.OpenKM;
 
-public class CopySubnodeMangolia extends Thread{
-	Document doc;
+public class CopySubNodeOpenKM extends Thread{
+	final static Logger logger = Logger.getLogger(CopySubNodeOpenKM.class);
+	OpenKM open;
 	Properties properties;
-	public CopySubnodeMangolia(Document doc,Properties properties) {
-		this.doc = doc ;
+	public CopySubNodeOpenKM(OpenKM open,Properties properties) {
+		this.open = open ;
 		this.properties = properties;
 	}
-	public void run(){ 		
+	public void run(){ 	
 		try {
-			LogProcessingDao logProcessingDao = new LogProcessingDao();
+			LogOpenKMDao logOpenKMDao = new LogOpenKMDao();
 			ObjectMapper objMapper = new ObjectMapper();
 			
 			DataProperties dp = new DataProperties();
 			dp.setName("jcr:content");
 			dp.setType("mgnl:resource");
-			dp.setPath("/"+properties.getProperty("asset_name")+"/"+doc.getObjectId("_id").toHexString()+"/jcr:content");
+			dp.setPath("/"+properties.getProperty("asset_name")+"/"+open.getOkm_hdpath()+"/jcr:content");
 			
 			List<com.khoahung.cmc.entity.Properties> listP = new ArrayList();
 			com.khoahung.cmc.entity.Properties p1 = new com.khoahung.cmc.entity.Properties();
 			p1.setName("jcr:data");
 			p1.setType("Binary");
 			p1.setMultiple(false);
-			p1.setValues(Arrays.asList(new String(((Binary)doc.get("img_str")).getData())));
+			p1.setValues(Arrays.asList(getFileImage(open.getOkm_hdpath())));
 			listP.add(p1);
 			
 			com.khoahung.cmc.entity.Properties p2 = new com.khoahung.cmc.entity.Properties();
 			p2.setName("extension");
 			p2.setType("String");
 			p2.setMultiple(false);
-			p2.setValues(Arrays.asList((String)doc.get("img_ext")));
+			p2.setValues(Arrays.asList(open.getFile_name().split("\\.")[1]));
 			listP.add(p2);
 			
 			com.khoahung.cmc.entity.Properties p3 = new com.khoahung.cmc.entity.Properties();
 			p3.setName("fileName");
 			p3.setType("String");
 			p3.setMultiple(false);
-			p3.setValues(Arrays.asList((String)doc.get("fn")));
+			p3.setValues(Arrays.asList(open.getFile_name()));
 			listP.add(p3);
 			
 			com.khoahung.cmc.entity.Properties p4 = new com.khoahung.cmc.entity.Properties();
 			p4.setName("jcr:mimeType");
 			p4.setType("String");
 			p4.setMultiple(false);
-			p4.setValues(Arrays.asList("image/"+(String)doc.get("img_ext")));
+			p4.setValues(Arrays.asList("image/"+open.getFile_name().split("\\.")[1]));
 			listP.add(p4);
 			
 			dp.setProperties(listP);
 			
 			URL url = new URL(properties.getProperty("mangolia_url") + properties.getProperty("asset_name") +"/"+
-					doc.getObjectId("_id").toHexString());
+					open.getOkm_hdpath());
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			String credentials = properties.getProperty("username") + ":" + properties.getProperty("password");
 			String basicAuth = Base64.getEncoder().encodeToString(credentials.getBytes(StandardCharsets.UTF_8));
@@ -88,21 +94,35 @@ public class CopySubnodeMangolia extends Thread{
 			writer.write(json);
 			writer.flush();
 			writer.close();
-			BufferedReader br = null;
 			int responseCode = conn.getResponseCode();
-			System.out.println("response code:"+responseCode);
+			logger.info("response code:"+responseCode);
 			if (100 <= responseCode && responseCode <= 399) {
-				System.out.println("Sub node have id = "+doc.getObjectId("_id").toHexString()+" has copy");
-				LogData log = new LogData();
-				log.setRecordId(doc.getObjectId("_id").toHexString());
-				logProcessingDao.save(log);
-			    br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-			} else {
-			    br = new BufferedReader(new InputStreamReader(conn.getErrorStream()));
-			}
+				 logger.info("Sub node have id = "+open.getOkm_hdpath()+" has copy");
+				LogOpenKM log = new LogOpenKM();
+				log.setOkm_hdpath(open.getOkm_hdpath());
+				logOpenKMDao.save(log);
+			}else {
+				logger.error("Asset have id = "+open.getOkm_hdpath()+" create Error");
+			} 
 	        Thread.sleep(100);
 		}catch(Exception ex) {
 			ex.printStackTrace();
 		}
+	}	
+	
+	public String getFileImage(String fileId) throws Exception {
+		String args = fileId.split("-")[0];
+		String[] path= new String[4];
+		path[0] = args.substring(0,2);
+		path[1] = args.substring(2,4);
+		path[2] = args.substring(4,6);
+		path[3] = args.substring(6,8);
+		String filePath = properties.getProperty("openkm_root_file")+"/"+path[0]+
+				"/"+path[1]+"/"+path[2]+"/"+path[3];
+		final File folder = new File(filePath);		
+		File image = folder.listFiles()[0];
+		byte[] fileContent = Files.readAllBytes(image.toPath());
+		String encodedString = Base64.getEncoder().encodeToString(fileContent);
+		return encodedString;
 	}
 }

@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Set;
 
+import org.apache.log4j.Logger;
 import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
@@ -41,6 +42,7 @@ import com.mongodb.client.MongoDatabase;
 
 
 class AgentMangolia extends Thread{
+	final static Logger logger = Logger.getLogger(AgentMangolia.class);
 	Properties properties;
 	public AgentMangolia(Properties p) {
 		this.properties = p ;
@@ -57,10 +59,9 @@ class AgentMangolia extends Thread{
 		MongoClient mongoClient = MongoClients.create(settings);
 		MongoDatabase database = mongoClient.getDatabase("rootdb");
 		MongoCollection<Document> collection  = database.getCollection("khoahung");
-		int count = 0;
 		ObjectMapper objMapper = new ObjectMapper();
 		while(true) {
-			System.out.println("==============Starting Migration database===================");
+			 logger.info("==============Starting Migration database===================");
 			try {					
 					FindIterable<Document> iterDoc = collection.find();
 					Iterator<Document> it = iterDoc.iterator();
@@ -74,10 +75,9 @@ class AgentMangolia extends Thread{
 					while (it.hasNext()) {
 						Document d = (Document)it.next();
 						if(keySet.contains(d.getObjectId("_id").toHexString())) {
-							System.out.println(d.getObjectId("_id").toHexString()+ " has synchronize");
+							 logger.info(d.getObjectId("_id").toHexString()+ " has synchronize");
 							continue;
 						}else {
-							
 							list.add(d);
 						}
 						if(list.size()>=500) {
@@ -136,19 +136,15 @@ class AgentMangolia extends Thread{
 						writer.write(json);
 						writer.flush();
 						writer.close();
-						BufferedReader br = null;
 						int responseCode = conn.getResponseCode();
-						System.out.println("response code:"+responseCode);
+						logger.info("response code:"+responseCode);
 						if (100 <= responseCode && responseCode <= 399) {
-							count += 1;
-							System.out.println("Asset have id = "+doc.getObjectId("_id").toHexString()+" has copy");
-							CopySubnodeMangolia subNode = new CopySubnodeMangolia(doc, properties);
+							 logger.info("Asset have id = "+doc.getObjectId("_id").toHexString()+" has copy");
+							CopySubNodeMangolia subNode = new CopySubNodeMangolia(doc, properties);
 							subNode.start();
-						    br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-						} else {
-						    br = new BufferedReader(new InputStreamReader(conn.getErrorStream()));
-						}
-						
+						}else {
+							logger.error("Asset have id = "+doc.getObjectId("_id").toHexString()+" create Error");
+						}  
 				        Thread.sleep(100);
 					}
 			        if(list.size() != 0) {
@@ -156,7 +152,7 @@ class AgentMangolia extends Thread{
 			        	Thread.sleep(100);
 						continue;
 					}
-					System.out.println("==============Finish copy data===================");
+					 logger.info("==============Finish copy data===================");
 					
 			} catch (Exception e) {
 				// TODO Auto-generated catch block

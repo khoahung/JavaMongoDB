@@ -1,0 +1,915 @@
+2021-08-12 10:57:06 INFO  AgentMangolia:64 - ==============Starting Migration database===================
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add54 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add56 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add55 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add53 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add52 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add57 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add58 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5a has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add59 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5b has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5c has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5f has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5e has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5d has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add60 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add62 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add61 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add64 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add63 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add65 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add67 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add66 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add69 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add68 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6a has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6c has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6b has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6d has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6e has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6f has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add70 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add71 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add73 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add72 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add74 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add75 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add76 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add77 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add78 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add79 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7a has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7b has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7e has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7d has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7c has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add80 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7f has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add83 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add82 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add81 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add84 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add85 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add86 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add87 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add88 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8a has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add89 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8b has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8d has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8c has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8f has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8e has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add91 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add92 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add90 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add93 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add95 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add94 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add96 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add97 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add98 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add99 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9a has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9c has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9f has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda0 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9b has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9e has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9d has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda3 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda1 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda2 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda5 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda4 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda7 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda6 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8adda9 has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addab has synchronize
+2021-08-12 10:57:09 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda8 has synchronize
+2021-08-12 10:57:10 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 10:57:11 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 10:57:11 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 62c152ae-0101-4d49-b617-1808862c6ae3 has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - b3b3fe89-c400-4bff-aa96-f058b720991f has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 2cb588fb-8a30-4702-ba69-7cc2bc2db12b has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - c247cce4-b6d7-434c-a8d1-5f2de24730b2 has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 55c09ff1-98b5-4f7c-bec9-ac6e6b082673 has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - b3df5ade-8081-4402-9974-2201d7f88a55 has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 0f972d30-d534-420a-95ff-8eb29d1a8a5a has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 292e02d4-d4c8-4cb9-819e-03d8871940ae has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 0baac53e-3e23-486e-9305-ec733123fb6d has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 43f9d57a-27fe-44d0-a058-12506f24d572 has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - a4fd2c10-b771-4e67-9836-1d0bf74dd393 has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 0156c354-a745-4c60-a213-605aa9e7fb0c has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - c4bdb109-05bb-4dad-8b19-c47810cc70db has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 8fea591f-9c98-4a2b-8a60-fa9b324cb3f5 has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 21767358-2f20-435d-9b33-1250003d49e5 has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 7a37e2e9-10ac-47a4-8834-a2eb80f646b8 has synchronize
+2021-08-12 10:57:11 INFO  AgentOpenKM:46 - 8b7d5a90-a81d-48e6-82d9-d3364aae7acf has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - ec4a95aa-c567-480b-9de7-fe98ad863870 has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - 77d4e586-0110-4ae9-9fbc-5a67ce0c1604 has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - 2ce10476-50df-4ddf-b91e-a1670aaddd08 has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - 06d2add0-13d5-45d7-80e6-4c10fe66ec62 has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - 7be10d7d-ada1-41f1-9954-751453194184 has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - e1c74d6f-eb67-4eb0-b35e-c4b66984ff97 has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - 44155d95-f3f0-4352-90bb-e572f89715c6 has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - cf525585-3aab-46cf-86af-74951d0b7ace has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - 5518a267-a247-42fd-8102-92107c39f33c has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - 680caec1-6850-4d04-9b0e-b1cd56f22bc6 has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - 9644e04d-160a-46a9-a109-30609ad616a9 has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - 05b03efc-de1f-45f8-9f12-08e6f6ca4a04 has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - 4f4ff4f1-c48c-4011-99c1-cf4b4277549e has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - d63515f2-07e6-4cfa-b40d-082f6e2dfa5f has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - f2a4bc2c-af32-40dc-8d83-a62932af2531 has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - 4283beba-838f-48b8-802d-124ad6622dac has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - e3c6af3f-ef03-417a-9901-b02fa1ade434 has synchronize
+2021-08-12 10:57:12 INFO  AgentOpenKM:46 - a16fd927-1d56-4557-8676-7927d4e6c48e has synchronize
+2021-08-12 10:57:13 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:00:43 INFO  AgentMangolia:64 - ==============Starting Migration database===================
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add54 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add56 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add55 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add53 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add52 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add57 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add58 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5a has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add59 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5b has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5c has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5f has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5e has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5d has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add60 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add62 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add61 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add64 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add63 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add65 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add67 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add66 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add69 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add68 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6a has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6c has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6b has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6d has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6e has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6f has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add70 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add71 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add73 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add72 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add74 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add75 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add76 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add77 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add78 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add79 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7a has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7b has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7e has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7d has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7c has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add80 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7f has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add83 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add82 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add81 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add84 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add85 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add86 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add87 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add88 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8a has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add89 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8b has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8d has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8c has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8f has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8e has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add91 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add92 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add90 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add93 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add95 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add94 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add96 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add97 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add98 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add99 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9a has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9c has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9f has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda0 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9b has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9e has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9d has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda3 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda1 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda2 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda5 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda4 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda7 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda6 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8adda9 has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addab has synchronize
+2021-08-12 11:00:44 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda8 has synchronize
+2021-08-12 11:00:45 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:00:45 ERROR AgentOpenKM:104 - Asset have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 create Error
+2021-08-12 11:00:46 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:00:46 ERROR AgentOpenKM:104 - Asset have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 create Error
+2021-08-12 11:00:47 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:00:47 ERROR AgentOpenKM:104 - Asset have id = 2bb215f0-09a2-4202-b234-1720974099d6 create Error
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 62c152ae-0101-4d49-b617-1808862c6ae3 has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - b3b3fe89-c400-4bff-aa96-f058b720991f has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 2cb588fb-8a30-4702-ba69-7cc2bc2db12b has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - c247cce4-b6d7-434c-a8d1-5f2de24730b2 has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 55c09ff1-98b5-4f7c-bec9-ac6e6b082673 has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - b3df5ade-8081-4402-9974-2201d7f88a55 has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 0f972d30-d534-420a-95ff-8eb29d1a8a5a has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 292e02d4-d4c8-4cb9-819e-03d8871940ae has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 0baac53e-3e23-486e-9305-ec733123fb6d has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 43f9d57a-27fe-44d0-a058-12506f24d572 has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - a4fd2c10-b771-4e67-9836-1d0bf74dd393 has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 0156c354-a745-4c60-a213-605aa9e7fb0c has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - c4bdb109-05bb-4dad-8b19-c47810cc70db has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 8fea591f-9c98-4a2b-8a60-fa9b324cb3f5 has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 21767358-2f20-435d-9b33-1250003d49e5 has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 7a37e2e9-10ac-47a4-8834-a2eb80f646b8 has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:46 - 8b7d5a90-a81d-48e6-82d9-d3364aae7acf has synchronize
+2021-08-12 11:00:47 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:00:47 ERROR AgentOpenKM:104 - Asset have id = 38557e68-5ba8-4ce4-bf4b-8b590540ebe4 create Error
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - ec4a95aa-c567-480b-9de7-fe98ad863870 has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - 77d4e586-0110-4ae9-9fbc-5a67ce0c1604 has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - 2ce10476-50df-4ddf-b91e-a1670aaddd08 has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - 06d2add0-13d5-45d7-80e6-4c10fe66ec62 has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - 7be10d7d-ada1-41f1-9954-751453194184 has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - e1c74d6f-eb67-4eb0-b35e-c4b66984ff97 has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - 44155d95-f3f0-4352-90bb-e572f89715c6 has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - cf525585-3aab-46cf-86af-74951d0b7ace has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - 5518a267-a247-42fd-8102-92107c39f33c has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - 680caec1-6850-4d04-9b0e-b1cd56f22bc6 has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - 9644e04d-160a-46a9-a109-30609ad616a9 has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - 05b03efc-de1f-45f8-9f12-08e6f6ca4a04 has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - 4f4ff4f1-c48c-4011-99c1-cf4b4277549e has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - d63515f2-07e6-4cfa-b40d-082f6e2dfa5f has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - f2a4bc2c-af32-40dc-8d83-a62932af2531 has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - 4283beba-838f-48b8-802d-124ad6622dac has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - e3c6af3f-ef03-417a-9901-b02fa1ade434 has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:46 - a16fd927-1d56-4557-8676-7927d4e6c48e has synchronize
+2021-08-12 11:00:48 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:00:48 ERROR AgentOpenKM:104 - Asset have id = 4d13637f-a19b-492b-9251-e390e16c1972 create Error
+2021-08-12 11:00:49 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:00:49 ERROR AgentOpenKM:104 - Asset have id = 9d91a41a-8c32-4819-bf76-2fc7ed39b3d5 create Error
+2021-08-12 11:00:49 INFO  AgentOpenKM:46 - 7a2e00ed-5ad9-4361-8116-082959f306e9 has synchronize
+2021-08-12 11:00:49 INFO  AgentOpenKM:46 - 374fa6f5-e7c1-4567-b47e-19361d416711 has synchronize
+2021-08-12 11:00:49 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:00:49 ERROR AgentOpenKM:104 - Asset have id = fe08fbd9-d68a-4471-960f-ad1cfd3752ac create Error
+2021-08-12 11:00:50 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:00:50 ERROR AgentOpenKM:104 - Asset have id = c540f71f-da30-42c3-bdcc-aa284718fceb create Error
+2021-08-12 11:03:11 INFO  AgentMangolia:64 - ==============Starting Migration database===================
+2021-08-12 11:03:13 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:03:13 ERROR AgentOpenKM:104 - Asset have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 create Error
+2021-08-12 11:03:14 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:03:14 ERROR AgentOpenKM:104 - Asset have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 create Error
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add54 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add56 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add55 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add53 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add52 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add57 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add58 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5a has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add59 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5b has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5c has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5f has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5e has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5d has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add60 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add62 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add61 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add64 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add63 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add65 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add67 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add66 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add69 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add68 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6a has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6c has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6b has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6d has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6e has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6f has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add70 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add71 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add73 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add72 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add74 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add75 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add76 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add77 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add78 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add79 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7a has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7b has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7e has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7d has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7c has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add80 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7f has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add83 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add82 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add81 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add84 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add85 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add86 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add87 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add88 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8a has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add89 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8b has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8d has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8c has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8f has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8e has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add91 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add92 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add90 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add93 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add95 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add94 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add96 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add97 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add98 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add99 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9a has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9c has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9f has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda0 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9b has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9e has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9d has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda3 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda1 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda2 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda5 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda4 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda7 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda6 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8adda9 has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addab has synchronize
+2021-08-12 11:03:14 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda8 has synchronize
+2021-08-12 11:03:14 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:03:14 ERROR AgentOpenKM:104 - Asset have id = 2bb215f0-09a2-4202-b234-1720974099d6 create Error
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 62c152ae-0101-4d49-b617-1808862c6ae3 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - b3b3fe89-c400-4bff-aa96-f058b720991f has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 2cb588fb-8a30-4702-ba69-7cc2bc2db12b has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - c247cce4-b6d7-434c-a8d1-5f2de24730b2 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 55c09ff1-98b5-4f7c-bec9-ac6e6b082673 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - b3df5ade-8081-4402-9974-2201d7f88a55 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 0f972d30-d534-420a-95ff-8eb29d1a8a5a has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 292e02d4-d4c8-4cb9-819e-03d8871940ae has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 0baac53e-3e23-486e-9305-ec733123fb6d has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 43f9d57a-27fe-44d0-a058-12506f24d572 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - a4fd2c10-b771-4e67-9836-1d0bf74dd393 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 0156c354-a745-4c60-a213-605aa9e7fb0c has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - c4bdb109-05bb-4dad-8b19-c47810cc70db has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 8fea591f-9c98-4a2b-8a60-fa9b324cb3f5 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 21767358-2f20-435d-9b33-1250003d49e5 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 7a37e2e9-10ac-47a4-8834-a2eb80f646b8 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 8b7d5a90-a81d-48e6-82d9-d3364aae7acf has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:03:15 ERROR AgentOpenKM:104 - Asset have id = 38557e68-5ba8-4ce4-bf4b-8b590540ebe4 create Error
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - ec4a95aa-c567-480b-9de7-fe98ad863870 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 77d4e586-0110-4ae9-9fbc-5a67ce0c1604 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 2ce10476-50df-4ddf-b91e-a1670aaddd08 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 06d2add0-13d5-45d7-80e6-4c10fe66ec62 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 7be10d7d-ada1-41f1-9954-751453194184 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - e1c74d6f-eb67-4eb0-b35e-c4b66984ff97 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 44155d95-f3f0-4352-90bb-e572f89715c6 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - cf525585-3aab-46cf-86af-74951d0b7ace has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 5518a267-a247-42fd-8102-92107c39f33c has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 680caec1-6850-4d04-9b0e-b1cd56f22bc6 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 9644e04d-160a-46a9-a109-30609ad616a9 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 05b03efc-de1f-45f8-9f12-08e6f6ca4a04 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 4f4ff4f1-c48c-4011-99c1-cf4b4277549e has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - d63515f2-07e6-4cfa-b40d-082f6e2dfa5f has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - f2a4bc2c-af32-40dc-8d83-a62932af2531 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - 4283beba-838f-48b8-802d-124ad6622dac has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - e3c6af3f-ef03-417a-9901-b02fa1ade434 has synchronize
+2021-08-12 11:03:15 INFO  AgentOpenKM:46 - a16fd927-1d56-4557-8676-7927d4e6c48e has synchronize
+2021-08-12 11:03:17 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:17 INFO  AgentOpenKM:100 - Asset have id = 4d13637f-a19b-492b-9251-e390e16c1972 has copy
+2021-08-12 11:03:20 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:20 INFO  AgentOpenKM:100 - Asset have id = 9d91a41a-8c32-4819-bf76-2fc7ed39b3d5 has copy
+2021-08-12 11:03:20 INFO  AgentOpenKM:46 - 7a2e00ed-5ad9-4361-8116-082959f306e9 has synchronize
+2021-08-12 11:03:20 INFO  AgentOpenKM:46 - 374fa6f5-e7c1-4567-b47e-19361d416711 has synchronize
+2021-08-12 11:03:20 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:20 INFO  CopySubNodeOpenKM:100 - Sub node have id = 4d13637f-a19b-492b-9251-e390e16c1972 has copy
+2021-08-12 11:03:21 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:21 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:21 INFO  AgentOpenKM:100 - Asset have id = fe08fbd9-d68a-4471-960f-ad1cfd3752ac has copy
+2021-08-12 11:03:21 INFO  CopySubNodeOpenKM:100 - Sub node have id = 9d91a41a-8c32-4819-bf76-2fc7ed39b3d5 has copy
+2021-08-12 11:03:22 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:22 INFO  CopySubNodeOpenKM:100 - Sub node have id = fe08fbd9-d68a-4471-960f-ad1cfd3752ac has copy
+2021-08-12 11:03:22 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:22 INFO  AgentOpenKM:100 - Asset have id = c540f71f-da30-42c3-bdcc-aa284718fceb has copy
+2021-08-12 11:03:23 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:23 INFO  CopySubNodeOpenKM:100 - Sub node have id = c540f71f-da30-42c3-bdcc-aa284718fceb has copy
+2021-08-12 11:03:23 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:23 INFO  AgentOpenKM:100 - Asset have id = 0c60187e-e484-494c-8eb3-3468d4df5cda has copy
+2021-08-12 11:03:24 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:24 INFO  CopySubNodeOpenKM:100 - Sub node have id = 0c60187e-e484-494c-8eb3-3468d4df5cda has copy
+2021-08-12 11:03:24 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:24 INFO  AgentOpenKM:100 - Asset have id = e0774189-2794-4e44-8765-57fc13c08df7 has copy
+2021-08-12 11:03:25 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:25 INFO  CopySubNodeOpenKM:100 - Sub node have id = e0774189-2794-4e44-8765-57fc13c08df7 has copy
+2021-08-12 11:03:25 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:25 INFO  AgentOpenKM:100 - Asset have id = c4f3037e-5ea8-4220-a600-fffdd5dd7d01 has copy
+2021-08-12 11:03:26 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:26 INFO  CopySubNodeOpenKM:100 - Sub node have id = c4f3037e-5ea8-4220-a600-fffdd5dd7d01 has copy
+2021-08-12 11:03:27 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:27 INFO  AgentOpenKM:100 - Asset have id = 35f80213-751c-4dbf-90ba-7d5d72f95b15 has copy
+2021-08-12 11:03:28 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:28 INFO  AgentOpenKM:100 - Asset have id = def2dba8-4923-4ec3-9e52-d351471a7d9f has copy
+2021-08-12 11:03:28 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:28 INFO  CopySubNodeOpenKM:100 - Sub node have id = 35f80213-751c-4dbf-90ba-7d5d72f95b15 has copy
+2021-08-12 11:03:31 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:31 INFO  AgentOpenKM:100 - Asset have id = 6dfca5c1-0ae1-4502-aa14-2c97141d97c5 has copy
+2021-08-12 11:03:31 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:31 INFO  CopySubNodeOpenKM:100 - Sub node have id = def2dba8-4923-4ec3-9e52-d351471a7d9f has copy
+2021-08-12 11:03:32 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:32 INFO  AgentOpenKM:100 - Asset have id = 4b818988-43cd-495c-9c80-fa3979b09da1 has copy
+2021-08-12 11:03:32 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:32 INFO  CopySubNodeOpenKM:100 - Sub node have id = 6dfca5c1-0ae1-4502-aa14-2c97141d97c5 has copy
+2021-08-12 11:03:33 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:03:33 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addaa has copy
+2021-08-12 11:03:33 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:33 INFO  CopySubNodeOpenKM:100 - Sub node have id = 4b818988-43cd-495c-9c80-fa3979b09da1 has copy
+2021-08-12 11:03:33 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:33 INFO  AgentOpenKM:100 - Asset have id = 38e55ec5-f1ae-4a89-b6e4-a7db5165dbfe has copy
+2021-08-12 11:03:33 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:03:33 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addac has copy
+2021-08-12 11:03:34 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:03:34 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addaa has copy
+2021-08-12 11:03:34 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:03:34 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addac has copy
+2021-08-12 11:03:34 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:34 INFO  CopySubNodeOpenKM:100 - Sub node have id = 38e55ec5-f1ae-4a89-b6e4-a7db5165dbfe has copy
+2021-08-12 11:03:34 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:34 INFO  AgentOpenKM:100 - Asset have id = c124de2e-5a91-448f-8f51-6338adbb95cc has copy
+2021-08-12 11:03:35 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:03:35 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addaf has copy
+2021-08-12 11:03:35 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:35 INFO  CopySubNodeOpenKM:100 - Sub node have id = c124de2e-5a91-448f-8f51-6338adbb95cc has copy
+2021-08-12 11:03:36 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:03:36 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addad has copy
+2021-08-12 11:03:36 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:36 INFO  AgentOpenKM:100 - Asset have id = f3c7b365-d8c1-43fb-94d2-6401794454ab has copy
+2021-08-12 11:03:36 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:03:36 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addaf has copy
+2021-08-12 11:03:37 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:37 INFO  AgentOpenKM:100 - Asset have id = d076aae1-b04a-4608-a453-8f3f2116b5b6 has copy
+2021-08-12 11:03:37 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:37 INFO  CopySubNodeOpenKM:100 - Sub node have id = f3c7b365-d8c1-43fb-94d2-6401794454ab has copy
+2021-08-12 11:03:37 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:03:37 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addad has copy
+2021-08-12 11:03:38 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:03:38 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addae has copy
+2021-08-12 11:03:39 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:03:39 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb2 has copy
+2021-08-12 11:03:40 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:40 INFO  AgentOpenKM:100 - Asset have id = 9feac75c-7331-4825-934a-4fcb59642906 has copy
+2021-08-12 11:03:40 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:40 INFO  CopySubNodeOpenKM:100 - Sub node have id = d076aae1-b04a-4608-a453-8f3f2116b5b6 has copy
+2021-08-12 11:03:40 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:03:40 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addae has copy
+2021-08-12 11:03:40 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:03:40 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addb2 has copy
+2021-08-12 11:03:40 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:03:40 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb1 has copy
+2021-08-12 11:03:40 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:40 INFO  CopySubNodeOpenKM:100 - Sub node have id = 9feac75c-7331-4825-934a-4fcb59642906 has copy
+2021-08-12 11:03:41 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:41 INFO  AgentOpenKM:100 - Asset have id = 710611c6-d433-4db7-8f09-45cdf091bcee has copy
+2021-08-12 11:03:41 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:03:41 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addb1 has copy
+2021-08-12 11:03:41 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:41 INFO  AgentOpenKM:100 - Asset have id = 21bf0804-7ea4-42dd-a8e9-a63a7978f94d has copy
+2021-08-12 11:03:41 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:41 INFO  CopySubNodeOpenKM:100 - Sub node have id = 710611c6-d433-4db7-8f09-45cdf091bcee has copy
+2021-08-12 11:03:41 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:03:41 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb3 has copy
+2021-08-12 11:03:42 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:42 INFO  AgentOpenKM:100 - Asset have id = edbbda0a-a9b5-4017-82f6-0e02498494d9 has copy
+2021-08-12 11:03:42 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:42 INFO  CopySubNodeOpenKM:100 - Sub node have id = 21bf0804-7ea4-42dd-a8e9-a63a7978f94d has copy
+2021-08-12 11:03:42 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:03:42 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addb3 has copy
+2021-08-12 11:03:42 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:03:42 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb4 has copy
+2021-08-12 11:03:43 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:43 INFO  CopySubNodeOpenKM:100 - Sub node have id = edbbda0a-a9b5-4017-82f6-0e02498494d9 has copy
+2021-08-12 11:03:43 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:43 INFO  AgentOpenKM:100 - Asset have id = 1860214c-82df-4e12-8126-996cfe29146b has copy
+2021-08-12 11:03:44 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:03:44 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb0 has copy
+2021-08-12 11:03:44 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:03:44 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addb4 has copy
+2021-08-12 11:03:44 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:03:44 INFO  CopySubNodeOpenKM:100 - Sub node have id = 1860214c-82df-4e12-8126-996cfe29146b has copy
+2021-08-12 11:03:45 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:03:45 INFO  AgentOpenKM:100 - Asset have id = da6c803d-859b-43b9-9594-fea0571b4c99 has copy
+2021-08-12 11:03:45 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:03:45 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addb0 has copy
+2021-08-12 11:03:45 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:03:45 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb5 has copy
+2021-08-12 11:10:01 INFO  AgentMangolia:64 - ==============Starting Migration database===================
+2021-08-12 11:10:03 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:10:03 ERROR AgentOpenKM:104 - Asset have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 create Error
+2021-08-12 11:10:03 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:10:03 ERROR AgentOpenKM:104 - Asset have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 create Error
+2021-08-12 11:10:04 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:10:04 ERROR AgentOpenKM:104 - Asset have id = 2bb215f0-09a2-4202-b234-1720974099d6 create Error
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 62c152ae-0101-4d49-b617-1808862c6ae3 has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - b3b3fe89-c400-4bff-aa96-f058b720991f has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 2cb588fb-8a30-4702-ba69-7cc2bc2db12b has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - c247cce4-b6d7-434c-a8d1-5f2de24730b2 has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 55c09ff1-98b5-4f7c-bec9-ac6e6b082673 has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - b3df5ade-8081-4402-9974-2201d7f88a55 has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 0f972d30-d534-420a-95ff-8eb29d1a8a5a has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 292e02d4-d4c8-4cb9-819e-03d8871940ae has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 0baac53e-3e23-486e-9305-ec733123fb6d has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 43f9d57a-27fe-44d0-a058-12506f24d572 has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - a4fd2c10-b771-4e67-9836-1d0bf74dd393 has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 0156c354-a745-4c60-a213-605aa9e7fb0c has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - c4bdb109-05bb-4dad-8b19-c47810cc70db has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 8fea591f-9c98-4a2b-8a60-fa9b324cb3f5 has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 21767358-2f20-435d-9b33-1250003d49e5 has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 7a37e2e9-10ac-47a4-8834-a2eb80f646b8 has synchronize
+2021-08-12 11:10:04 INFO  AgentOpenKM:46 - 8b7d5a90-a81d-48e6-82d9-d3364aae7acf has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add54 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add56 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add55 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add53 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add52 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add57 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add58 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5a has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add59 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5b has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5c has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5f has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5e has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5d has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add60 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add62 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add61 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add64 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add63 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add65 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add67 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add66 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add69 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add68 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6a has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6c has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6b has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6d has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6e has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6f has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add70 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add71 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add73 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add72 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add74 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add75 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add76 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add77 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add78 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add79 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7a has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7b has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7e has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7d has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7c has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add80 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7f has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add83 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add82 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add81 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add84 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add85 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add86 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add87 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add88 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8a has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add89 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8b has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8d has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8c has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8f has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8e has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add91 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add92 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add90 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add93 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add95 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add94 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add96 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add97 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add98 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add99 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9a has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9c has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9f has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda0 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9b has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9e has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9d has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda3 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda1 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda2 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda5 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda4 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda7 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda6 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8adda9 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addab has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda8 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addaa has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addac has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addaf has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addad has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addae has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addb2 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addb1 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addb3 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addb4 has synchronize
+2021-08-12 11:10:04 INFO  AgentMangolia:78 - 5e9c085121d8993d1e8addb0 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:98 - response code:400
+2021-08-12 11:10:05 ERROR AgentOpenKM:104 - Asset have id = 38557e68-5ba8-4ce4-bf4b-8b590540ebe4 create Error
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - ec4a95aa-c567-480b-9de7-fe98ad863870 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 77d4e586-0110-4ae9-9fbc-5a67ce0c1604 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 2ce10476-50df-4ddf-b91e-a1670aaddd08 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 06d2add0-13d5-45d7-80e6-4c10fe66ec62 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 7be10d7d-ada1-41f1-9954-751453194184 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - e1c74d6f-eb67-4eb0-b35e-c4b66984ff97 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 44155d95-f3f0-4352-90bb-e572f89715c6 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - cf525585-3aab-46cf-86af-74951d0b7ace has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 5518a267-a247-42fd-8102-92107c39f33c has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 680caec1-6850-4d04-9b0e-b1cd56f22bc6 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 9644e04d-160a-46a9-a109-30609ad616a9 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 05b03efc-de1f-45f8-9f12-08e6f6ca4a04 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 4f4ff4f1-c48c-4011-99c1-cf4b4277549e has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - d63515f2-07e6-4cfa-b40d-082f6e2dfa5f has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - f2a4bc2c-af32-40dc-8d83-a62932af2531 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 4283beba-838f-48b8-802d-124ad6622dac has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - e3c6af3f-ef03-417a-9901-b02fa1ade434 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - a16fd927-1d56-4557-8676-7927d4e6c48e has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 4d13637f-a19b-492b-9251-e390e16c1972 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 9d91a41a-8c32-4819-bf76-2fc7ed39b3d5 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 7a2e00ed-5ad9-4361-8116-082959f306e9 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 374fa6f5-e7c1-4567-b47e-19361d416711 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - fe08fbd9-d68a-4471-960f-ad1cfd3752ac has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - c540f71f-da30-42c3-bdcc-aa284718fceb has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 0c60187e-e484-494c-8eb3-3468d4df5cda has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - e0774189-2794-4e44-8765-57fc13c08df7 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - c4f3037e-5ea8-4220-a600-fffdd5dd7d01 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 35f80213-751c-4dbf-90ba-7d5d72f95b15 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - def2dba8-4923-4ec3-9e52-d351471a7d9f has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 6dfca5c1-0ae1-4502-aa14-2c97141d97c5 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 4b818988-43cd-495c-9c80-fa3979b09da1 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 38e55ec5-f1ae-4a89-b6e4-a7db5165dbfe has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - c124de2e-5a91-448f-8f51-6338adbb95cc has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - f3c7b365-d8c1-43fb-94d2-6401794454ab has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - d076aae1-b04a-4608-a453-8f3f2116b5b6 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 9feac75c-7331-4825-934a-4fcb59642906 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 710611c6-d433-4db7-8f09-45cdf091bcee has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 21bf0804-7ea4-42dd-a8e9-a63a7978f94d has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - edbbda0a-a9b5-4017-82f6-0e02498494d9 has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:46 - 1860214c-82df-4e12-8126-996cfe29146b has synchronize
+2021-08-12 11:10:05 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:05 INFO  AgentOpenKM:100 - Asset have id = da6c803d-859b-43b9-9594-fea0571b4c99 has copy
+2021-08-12 11:10:06 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:06 INFO  CopySubNodeOpenKM:100 - Sub node have id = da6c803d-859b-43b9-9594-fea0571b4c99 has copy
+2021-08-12 11:10:06 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:06 INFO  AgentOpenKM:100 - Asset have id = e7d40dcf-6ec7-40ef-9318-b124767c567c has copy
+2021-08-12 11:10:07 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:07 INFO  CopySubNodeOpenKM:100 - Sub node have id = e7d40dcf-6ec7-40ef-9318-b124767c567c has copy
+2021-08-12 11:10:07 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:07 INFO  AgentOpenKM:100 - Asset have id = 1dedfe19-1ad6-44d1-a975-b70b3c524de7 has copy
+2021-08-12 11:10:08 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:08 INFO  CopySubNodeOpenKM:100 - Sub node have id = 1dedfe19-1ad6-44d1-a975-b70b3c524de7 has copy
+2021-08-12 11:10:08 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:08 INFO  AgentOpenKM:100 - Asset have id = dff4443d-0591-4151-8e51-018c123f401c has copy
+2021-08-12 11:10:10 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:10 INFO  AgentOpenKM:100 - Asset have id = 04a30ffd-ee89-401c-8751-e7c744d7791e has copy
+2021-08-12 11:10:11 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:11 INFO  CopySubNodeOpenKM:100 - Sub node have id = dff4443d-0591-4151-8e51-018c123f401c has copy
+2021-08-12 11:10:12 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:12 INFO  CopySubNodeOpenKM:100 - Sub node have id = 04a30ffd-ee89-401c-8751-e7c744d7791e has copy
+2021-08-12 11:10:12 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:12 INFO  AgentOpenKM:100 - Asset have id = f6b135b7-842a-41e6-acae-fff2bcb5160c has copy
+2021-08-12 11:10:12 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:12 INFO  AgentOpenKM:100 - Asset have id = ca78b90a-cdd9-4b17-bcb2-ec77c4081ec2 has copy
+2021-08-12 11:10:12 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:12 INFO  CopySubNodeOpenKM:100 - Sub node have id = f6b135b7-842a-41e6-acae-fff2bcb5160c has copy
+2021-08-12 11:10:14 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:14 INFO  CopySubNodeOpenKM:100 - Sub node have id = ca78b90a-cdd9-4b17-bcb2-ec77c4081ec2 has copy
+2021-08-12 11:10:14 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:14 INFO  AgentOpenKM:100 - Asset have id = 5731c64f-2654-434e-b976-add807fd66cb has copy
+2021-08-12 11:10:15 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:15 INFO  AgentOpenKM:100 - Asset have id = 0983958b-2706-43ba-94e3-70f18e5eb6cb has copy
+2021-08-12 11:10:15 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:15 INFO  CopySubNodeOpenKM:100 - Sub node have id = 5731c64f-2654-434e-b976-add807fd66cb has copy
+2021-08-12 11:10:16 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:16 INFO  CopySubNodeOpenKM:100 - Sub node have id = 0983958b-2706-43ba-94e3-70f18e5eb6cb has copy
+2021-08-12 11:10:16 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:16 INFO  AgentOpenKM:100 - Asset have id = aae74eff-4f9b-4731-88a6-c57bf6c8b281 has copy
+2021-08-12 11:10:17 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:17 INFO  AgentOpenKM:100 - Asset have id = e6fd93f0-8412-40aa-bace-380ea99e518c has copy
+2021-08-12 11:10:17 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:17 INFO  CopySubNodeOpenKM:100 - Sub node have id = aae74eff-4f9b-4731-88a6-c57bf6c8b281 has copy
+2021-08-12 11:10:18 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:18 INFO  CopySubNodeOpenKM:100 - Sub node have id = e6fd93f0-8412-40aa-bace-380ea99e518c has copy
+2021-08-12 11:10:18 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:18 INFO  AgentOpenKM:100 - Asset have id = acdc969a-f78a-4524-bfa6-ae4ab8d15a69 has copy
+2021-08-12 11:10:20 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:20 INFO  AgentOpenKM:100 - Asset have id = a57f017b-91d1-4834-803a-c9b80afa93de has copy
+2021-08-12 11:10:20 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:20 INFO  CopySubNodeOpenKM:100 - Sub node have id = acdc969a-f78a-4524-bfa6-ae4ab8d15a69 has copy
+2021-08-12 11:10:21 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:21 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb5 has copy
+2021-08-12 11:10:21 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:21 INFO  AgentOpenKM:100 - Asset have id = 24ff575f-7b14-4ced-bb6e-8ba95155ade4 has copy
+2021-08-12 11:10:21 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:21 INFO  CopySubNodeOpenKM:100 - Sub node have id = a57f017b-91d1-4834-803a-c9b80afa93de has copy
+2021-08-12 11:10:22 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:22 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addb5 has copy
+2021-08-12 11:10:22 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:22 INFO  AgentOpenKM:100 - Asset have id = e5d09beb-c02e-4bd5-8213-59ec9af74002 has copy
+2021-08-12 11:10:23 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:23 INFO  CopySubNodeOpenKM:100 - Sub node have id = 24ff575f-7b14-4ced-bb6e-8ba95155ade4 has copy
+2021-08-12 11:10:23 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:23 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb7 has copy
+2021-08-12 11:10:23 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:23 INFO  CopySubNodeOpenKM:100 - Sub node have id = e5d09beb-c02e-4bd5-8213-59ec9af74002 has copy
+2021-08-12 11:10:24 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:24 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addb7 has copy
+2021-08-12 11:10:24 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:24 INFO  AgentOpenKM:100 - Asset have id = 38957e74-da48-4245-8886-4de33c3620ba has copy
+2021-08-12 11:10:24 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:24 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb6 has copy
+2021-08-12 11:10:25 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:25 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addb6 has copy
+2021-08-12 11:10:25 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:25 INFO  CopySubNodeOpenKM:100 - Sub node have id = 38957e74-da48-4245-8886-4de33c3620ba has copy
+2021-08-12 11:10:25 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:25 INFO  AgentOpenKM:100 - Asset have id = 0f777373-34cd-4053-aafa-12ef789405d1 has copy
+2021-08-12 11:10:25 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:25 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb9 has copy
+2021-08-12 11:10:27 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:27 INFO  CopySubNodeOpenKM:100 - Sub node have id = 0f777373-34cd-4053-aafa-12ef789405d1 has copy
+2021-08-12 11:10:27 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:27 INFO  AgentOpenKM:100 - Asset have id = 472b9949-5c0e-4deb-8ffe-6120eb0a4263 has copy
+2021-08-12 11:10:27 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:27 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addba has copy
+2021-08-12 11:10:27 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:27 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addb9 has copy
+2021-08-12 11:10:27 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:27 INFO  CopySubNodeOpenKM:100 - Sub node have id = 472b9949-5c0e-4deb-8ffe-6120eb0a4263 has copy
+2021-08-12 11:10:27 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:27 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addba has copy
+2021-08-12 11:10:27 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:27 INFO  AgentOpenKM:100 - Asset have id = f750878f-2ec9-4519-a3cd-5188c367063d has copy
+2021-08-12 11:10:28 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:28 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb8 has copy
+2021-08-12 11:10:28 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:28 INFO  CopySubNodeOpenKM:100 - Sub node have id = f750878f-2ec9-4519-a3cd-5188c367063d has copy
+2021-08-12 11:10:28 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:28 INFO  AgentOpenKM:100 - Asset have id = 24d52c2c-aa6d-4829-9c33-6b85b6c6019d has copy
+2021-08-12 11:10:29 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:29 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addb8 has copy
+2021-08-12 11:10:29 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:29 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addbb has copy
+2021-08-12 11:10:31 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:31 INFO  AgentOpenKM:100 - Asset have id = 1d72dc7f-d401-479f-ae92-a2dc707985cd has copy
+2021-08-12 11:10:31 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:31 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addbc has copy
+2021-08-12 11:10:31 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:31 INFO  CopySubNodeOpenKM:100 - Sub node have id = 24d52c2c-aa6d-4829-9c33-6b85b6c6019d has copy
+2021-08-12 11:10:31 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:31 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addbb has copy
+2021-08-12 11:10:32 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:32 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addbc has copy
+2021-08-12 11:10:33 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:33 INFO  CopySubNodeOpenKM:100 - Sub node have id = 1d72dc7f-d401-479f-ae92-a2dc707985cd has copy
+2021-08-12 11:10:33 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:33 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addbd has copy
+2021-08-12 11:10:33 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:33 INFO  AgentOpenKM:100 - Asset have id = 6647a1d5-6f17-4fd1-b384-788f8289985b has copy
+2021-08-12 11:10:34 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:34 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc0 has copy
+2021-08-12 11:10:34 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:34 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addbd has copy
+2021-08-12 11:10:34 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:34 INFO  CopySubNodeOpenKM:100 - Sub node have id = 6647a1d5-6f17-4fd1-b384-788f8289985b has copy
+2021-08-12 11:10:34 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:34 INFO  AgentOpenKM:100 - Asset have id = e7f1efc3-297e-41dd-9887-667aa1e183b8 has copy
+2021-08-12 11:10:35 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:35 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addbe has copy
+2021-08-12 11:10:35 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:35 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addc0 has copy
+2021-08-12 11:10:35 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:35 INFO  AgentOpenKM:100 - Asset have id = f1af7ee6-f39e-44ab-ab49-080c78d8531b has copy
+2021-08-12 11:10:36 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:36 INFO  CopySubNodeOpenKM:100 - Sub node have id = e7f1efc3-297e-41dd-9887-667aa1e183b8 has copy
+2021-08-12 11:10:36 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:36 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addbf has copy
+2021-08-12 11:10:36 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:36 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addbe has copy
+2021-08-12 11:10:36 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:36 INFO  CopySubNodeOpenKM:100 - Sub node have id = f1af7ee6-f39e-44ab-ab49-080c78d8531b has copy
+2021-08-12 11:10:36 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:36 INFO  AgentOpenKM:100 - Asset have id = 24532d35-d2fc-4c95-bd48-f122b9378300 has copy
+2021-08-12 11:10:37 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:37 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addbf has copy
+2021-08-12 11:10:37 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:37 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc3 has copy
+2021-08-12 11:10:37 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:37 INFO  CopySubNodeOpenKM:100 - Sub node have id = 24532d35-d2fc-4c95-bd48-f122b9378300 has copy
+2021-08-12 11:10:37 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:37 INFO  AgentOpenKM:100 - Asset have id = 463189de-fb0e-4fea-9e5f-402b46ad424b has copy
+2021-08-12 11:10:38 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:38 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addc3 has copy
+2021-08-12 11:10:38 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:38 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc2 has copy
+2021-08-12 11:10:39 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:39 INFO  CopySubNodeOpenKM:100 - Sub node have id = 463189de-fb0e-4fea-9e5f-402b46ad424b has copy
+2021-08-12 11:10:39 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:39 INFO  AgentOpenKM:100 - Asset have id = 2efb9ec6-75a2-4c4c-9649-b7f982fd549b has copy
+2021-08-12 11:10:39 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:39 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addc2 has copy
+2021-08-12 11:10:40 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:40 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc1 has copy
+2021-08-12 11:10:41 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:41 INFO  AgentOpenKM:100 - Asset have id = 8355921c-1b1c-4dc4-8c93-b55544310ffe has copy
+2021-08-12 11:10:41 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:41 INFO  CopySubNodeOpenKM:100 - Sub node have id = 2efb9ec6-75a2-4c4c-9649-b7f982fd549b has copy
+2021-08-12 11:10:41 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:41 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addc1 has copy
+2021-08-12 11:10:42 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:42 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc5 has copy
+2021-08-12 11:10:42 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:42 INFO  AgentOpenKM:100 - Asset have id = 1a227416-d17e-45b6-aee9-a86fc0130314 has copy
+2021-08-12 11:10:42 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:42 INFO  CopySubNodeOpenKM:100 - Sub node have id = 8355921c-1b1c-4dc4-8c93-b55544310ffe has copy
+2021-08-12 11:10:43 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:43 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc4 has copy
+2021-08-12 11:10:43 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:43 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addc5 has copy
+2021-08-12 11:10:43 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:43 INFO  CopySubNodeOpenKM:100 - Sub node have id = 1a227416-d17e-45b6-aee9-a86fc0130314 has copy
+2021-08-12 11:10:43 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:43 INFO  AgentOpenKM:100 - Asset have id = 000752c8-da0e-4c99-ba45-1d868c0f1515 has copy
+2021-08-12 11:10:43 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:43 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addc4 has copy
+2021-08-12 11:10:43 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:43 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc6 has copy
+2021-08-12 11:10:44 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:44 INFO  CopySubNodeOpenKM:100 - Sub node have id = 000752c8-da0e-4c99-ba45-1d868c0f1515 has copy
+2021-08-12 11:10:44 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:44 INFO  AgentOpenKM:100 - Asset have id = 39f71f45-3fcc-4d54-a686-2c7c2ca44f95 has copy
+2021-08-12 11:10:44 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:44 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addc6 has copy
+2021-08-12 11:10:44 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:44 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc7 has copy
+2021-08-12 11:10:45 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:45 INFO  AgentOpenKM:100 - Asset have id = 3860e7c4-84de-4474-9e64-8ba71fefa576 has copy
+2021-08-12 11:10:45 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:45 INFO  CopySubNodeOpenKM:100 - Sub node have id = 39f71f45-3fcc-4d54-a686-2c7c2ca44f95 has copy
+2021-08-12 11:10:45 INFO  CopySubNodeMangolia:95 - response code:200
+2021-08-12 11:10:45 INFO  CopySubNodeMangolia:97 - Sub node have id = 5e9c085121d8993d1e8addc7 has copy
+2021-08-12 11:10:46 INFO  AgentMangolia:140 - response code:200
+2021-08-12 11:10:46 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc8 has copy
+2021-08-12 11:10:46 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:46 INFO  AgentOpenKM:100 - Asset have id = c7ffd161-c82c-4c21-b808-f767225c7560 has copy
+2021-08-12 11:10:46 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-12 11:10:46 INFO  CopySubNodeOpenKM:100 - Sub node have id = 3860e7c4-84de-4474-9e64-8ba71fefa576 has copy
+2021-08-12 11:10:47 INFO  AgentOpenKM:98 - response code:200
+2021-08-12 11:10:47 INFO  AgentOpenKM:100 - Asset have id = 092c2c22-0091-4c3e-b506-6e76014dd410 has copy

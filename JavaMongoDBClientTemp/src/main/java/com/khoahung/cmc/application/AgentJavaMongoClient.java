@@ -4,7 +4,7 @@ public class AgentJavaMongoClient {
 	public static void main(String[] args) {
 		Agent agent = new Agent();
 		agent.start();
-		FileTransfer ft = new FileTransfer();
-		ft.start();
+		//FileTransfer ft = new FileTransfer();
+		//ft.start();
 	}
 }
