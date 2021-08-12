@@ -63,12 +63,7 @@ class Agent extends Thread{
 						if(keySet.contains(d.getObjectId("_id").toHexString())) {
 							System.out.println(d.get("_id")+ " has synchronize");
 							continue;
-						}else {
-							count += 1;
-							System.out.println("index = "+ count +" this id = "+ d.getObjectId("_id").toHexString() +" has copy");
-							LogData log = new LogData();
-							log.setRecordId(d.getObjectId("_id").toHexString());
-							logProcessingDao.save(log);
+						}else {							
 							list.add(d);
 						}
 						if(list.size()>=500) {
@@ -91,6 +86,13 @@ class Agent extends Thread{
 					BufferedReader br = null;
 					if (100 <= conn.getResponseCode() && conn.getResponseCode() <= 399) {
 					    br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+					    for(Document d: list) {
+					    	count += 1;
+							System.out.println("index = "+ count +" this id = "+ d.getObjectId("_id").toHexString() +" has copy");
+							LogData log = new LogData();
+							log.setRecordId(d.getObjectId("_id").toHexString());
+							logProcessingDao.save(log);
+						}
 					} else {
 					    br = new BufferedReader(new InputStreamReader(conn.getErrorStream()));
 					}
@@ -101,7 +103,7 @@ class Agent extends Thread{
 			        }
 			        if(list.size() != 0) {
 			        	list = new ArrayList<Document>();
-						Thread.sleep(60000);
+						Thread.sleep(1000);
 						continue;
 					}
 					System.out.println("==============Finish copy data===================");
