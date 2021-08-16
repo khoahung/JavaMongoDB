@@ -97,7 +97,7 @@ public class CopySubNodeOpenKM extends Thread{
 			int responseCode = conn.getResponseCode();
 			logger.info("response code:"+responseCode);
 			if (100 <= responseCode && responseCode <= 399) {
-				 logger.info("Sub node have id = "+open.getOkm_hdpath()+" has copy");
+				logger.info("Sub node have id = "+open.getOkm_hdpath()+" has copy");
 				LogOpenKM log = new LogOpenKM();
 				log.setOkm_hdpath(open.getOkm_hdpath());
 				logOpenKMDao.save(log);

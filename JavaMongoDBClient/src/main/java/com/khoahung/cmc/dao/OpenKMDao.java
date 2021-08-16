@@ -28,6 +28,7 @@ public class OpenKMDao {
 			d.setOkm_hdpath(rs.getString("okm_hdpath"));
 			data.add(d);
 		}
+		stmt.close();
 		conn.close();
 		return data;
 	}

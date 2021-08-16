@@ -97,7 +97,7 @@ public class AgentOpenKM extends Thread{
 				int responseCode = conn.getResponseCode();
 				logger.info("response code:"+responseCode);
 				if (100 <= responseCode && responseCode <= 399) {
-					 logger.info("Asset have id = "+open.getOkm_hdpath()+" has copy");
+					logger.info("Asset have id = "+open.getOkm_hdpath()+" has copy");
 					CopySubNodeOpenKM subNode = new CopySubNodeOpenKM(open, properties);
 					subNode.start();
 				}else {

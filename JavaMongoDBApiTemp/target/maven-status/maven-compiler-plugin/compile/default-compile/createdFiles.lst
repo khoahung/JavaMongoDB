@@ -1,4 +1,6 @@
+com\khoahung\cmc\application\ApplicationAPI.class
 com\khoahung\cmc\dao\CollectionDataDao.class
 com\khoahung\cmc\service\impl\CollectionDataServiceImpl.class
+com\khoahung\cmc\entity\Data.class
 com\khoahung\cmc\controller\MainController.class
 com\khoahung\cmc\service\CollectionDataService.class

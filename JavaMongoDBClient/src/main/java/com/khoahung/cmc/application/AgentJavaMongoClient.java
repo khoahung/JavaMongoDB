@@ -13,7 +13,7 @@ public class AgentJavaMongoClient {
 			// load properties from file
 			Properties properties = new Properties();
 			properties.load(inputStream);
-			
+
 			AgentMangolia agentMangolia = new AgentMangolia(properties);
 			agentMangolia.start();
 			

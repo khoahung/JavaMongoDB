@@ -13,6 +13,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
+import org.apache.log4j.Logger;
 import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
@@ -34,7 +35,7 @@ import com.mongodb.client.MongoDatabase;
 
 
 class Agent extends Thread{
-	
+	final static Logger logger = Logger.getLogger(Agent.class);
 	public void run(){ 	
 		LogProcessingDao logProcessingDao = new LogProcessingDao();
 		ConnectionString connString = new ConnectionString(
@@ -49,7 +50,7 @@ class Agent extends Thread{
 		MongoCollection<Document> collection  = database.getCollection("khoahung");
 		int count = 0;
 		while(true) {
-			System.out.println("==============Starting Migration database===================");
+			logger.info("==============Starting Migration database===================");
 			try {					
 					FindIterable<Document> iterDoc = collection.find();
 					Iterator<Document> it = iterDoc.iterator();
@@ -63,7 +64,7 @@ class Agent extends Thread{
 					while (it.hasNext()) {
 						Document d = (Document)it.next();
 						if(keySet.contains(d.getObjectId("_id").toHexString())) {
-							System.out.println(d.getObjectId("_id").toHexString()+ " has synchronize");
+							logger.info(d.getObjectId("_id").toHexString()+ " has synchronize");
 							continue;
 						}else {
 							list.add(d);
@@ -89,7 +90,7 @@ class Agent extends Thread{
 						br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 						for(Document d: list) {
 							count += 1;
-							System.out.println("index = "+ count +" this id = "+d.getObjectId("_id").toHexString()+" has copy");
+							logger.info("index = "+ count +" this id = "+d.getObjectId("_id").toHexString()+" has copy");
 							LogData log = new LogData();
 							log.setRecordId(d.getObjectId("_id").toHexString());
 							logProcessingDao.save(log);
@@ -97,17 +98,17 @@ class Agent extends Thread{
 					} else {
 					    br = new BufferedReader(new InputStreamReader(conn.getErrorStream()));
 					}
-					System.out.println("response code:"+conn.getResponseCode());	
+					logger.info("response code:"+conn.getResponseCode());	
 					String strCurrentLine;
 			        while ((strCurrentLine = br.readLine()) != null) {
-			               System.out.println(strCurrentLine);
+			               logger.info(strCurrentLine);
 			        }	
 			        if(list.size() != 0) {
 			        	list = new ArrayList<Document>();
 			        	Thread.sleep(5000);
 						continue;
 					}
-					System.out.println("==============Finish copy data===================");
+					logger.info("==============Finish copy data===================");
 					
 			} catch (Exception e) {
 				// TODO Auto-generated catch block

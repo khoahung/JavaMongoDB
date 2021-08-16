@@ -15,14 +15,14 @@ import com.khoahung.cmc.entity.LogData;
 @Transactional
 public class LogProcessingDao{
 	
-	static final String JDBC_DRIVER = "org.mariadb.jdbc.Driver";
-    static final String DB_URL = "jdbc:mariadb://localhost:3307/logdb";
+	static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+	static final String DB_URL = "jdbc:mysql://localhost:3306/LogDB";
     static final String USER = "root";
     static final String PASS = "root";
     
     @Transactional
     public void save(LogData longData) throws Exception{
-    	Class.forName("org.mariadb.jdbc.Driver");
+    	Class.forName(JDBC_DRIVER);
     	Connection conn = DriverManager.getConnection( DB_URL, USER, PASS);
     	PreparedStatement ps= conn.prepareStatement("INSERT INTO LogData(recordId, updateTime) values(?,?)");
     	ps.setString(1,longData.getRecordId());
@@ -34,7 +34,7 @@ public class LogProcessingDao{
     }
 
 	public List<LogData> findAll() throws Exception {
-		Class.forName("org.mariadb.jdbc.Driver");
+		Class.forName(JDBC_DRIVER);
 		Connection conn = DriverManager.getConnection( DB_URL, USER, PASS);
 		Statement stmt = conn.createStatement();
 		ResultSet rs = stmt.executeQuery("SELECT * FROM LogData"); 
@@ -46,6 +46,7 @@ public class LogProcessingDao{
 			d.setUpdateTime(rs.getDate("updateTime"));
 			data.add(d);
 		}
+		stmt.close();
 		conn.close();
 		return data;
 	}

@@ -1,0 +1,15 @@
+com\khoahung\cmc\entity\LogData.class
+com\khoahung\cmc\application\CopySubNodeOpenKM.class
+com\khoahung\cmc\dao\LogProcessingDao.class
+com\khoahung\cmc\application\Agent.class
+com\khoahung\cmc\dao\OpenKMDao.class
+com\khoahung\cmc\entity\Properties.class
+com\khoahung\cmc\entity\OpenKM.class
+com\khoahung\cmc\entity\DataProperties.class
+com\khoahung\cmc\application\AgentOpenKM.class
+com\khoahung\cmc\application\AgentJavaMongoClient.class
+com\khoahung\cmc\application\CopySubNodeMangolia.class
+com\khoahung\cmc\application\AgentMangolia.class
+com\khoahung\cmc\entity\Data.class
+com\khoahung\cmc\entity\LogOpenKM.class
+com\khoahung\cmc\dao\LogOpenKMDao.class
