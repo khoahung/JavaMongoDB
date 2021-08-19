@@ -16,6 +16,7 @@ import org.bson.types.Binary;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.khoahung.cmc.dao.LogProcessingDao;
+import com.khoahung.cmc.entity.AssetsDataProperties;
 import com.khoahung.cmc.entity.DataProperties;
 import com.khoahung.cmc.entity.LogData;
 
@@ -32,44 +33,75 @@ public class CreateAssetsMongoDB extends Thread {
 			LogProcessingDao logProcessingDao = new LogProcessingDao();
 			ObjectMapper objMapper = new ObjectMapper();
 			
-			DataProperties dp = new DataProperties();
-			dp.setName("jcr:content");
+			AssetsDataProperties dp = new AssetsDataProperties();
+			dp.setName(doc.getObjectId("_id").toHexString());
 			dp.setType("mgnl:resource");
-			dp.setPath("/"+properties.getProperty("asset_name")+"/"+doc.getObjectId("_id").toHexString()+"/jcr:content");
+			dp.setPath("/"+doc.getObjectId("_id").toHexString());
+			
 			
 			List<com.khoahung.cmc.entity.Properties> listP = new ArrayList();
 			com.khoahung.cmc.entity.Properties p1 = new com.khoahung.cmc.entity.Properties();
-			p1.setName("jcr:data");
-			p1.setType("Binary");
+			p1.setName("type");
+			p1.setType("String");
 			p1.setMultiple(false);
-			p1.setValues(Arrays.asList(new String(((Binary)doc.get("img_str")).getData())));
+			p1.setValues(Arrays.asList((String)doc.get("img_ext")));
 			listP.add(p1);
 			
 			com.khoahung.cmc.entity.Properties p2 = new com.khoahung.cmc.entity.Properties();
-			p2.setName("extension");
+			p2.setName("name");
 			p2.setType("String");
 			p2.setMultiple(false);
-			p2.setValues(Arrays.asList((String)doc.get("img_ext")));
+			p2.setValues(Arrays.asList(doc.getObjectId("_id").toHexString()));
 			listP.add(p2);
 			
 			com.khoahung.cmc.entity.Properties p3 = new com.khoahung.cmc.entity.Properties();
-			p3.setName("fileName");
+			p3.setName("title");
 			p3.setType("String");
 			p3.setMultiple(false);
-			p3.setValues(Arrays.asList((String)doc.get("fn")));
+			p3.setValues(Arrays.asList("Asset Create From MongoDB"));
 			listP.add(p3);
 			
 			com.khoahung.cmc.entity.Properties p4 = new com.khoahung.cmc.entity.Properties();
-			p4.setName("jcr:mimeType");
+			p4.setName("customeattribute");
 			p4.setType("String");
 			p4.setMultiple(false);
-			p4.setValues(Arrays.asList("image/"+(String)doc.get("img_ext")));
+			p4.setValues(Arrays.asList("my custom value"));
 			listP.add(p4);
 			
-			dp.setProperties(listP);
+			dp.setNodeProperties(listP);
 			
-			URL url = new URL(properties.getProperty("mangolia_url") + properties.getProperty("asset_name") +"/"+
-					doc.getObjectId("_id").toHexString());
+			List<com.khoahung.cmc.entity.Properties> assetP = new ArrayList();
+			com.khoahung.cmc.entity.Properties p5 = new com.khoahung.cmc.entity.Properties();
+			p5.setName("jcr:data");
+			p5.setType("Binary");
+			p5.setMultiple(false);
+			p5.setValues(Arrays.asList(new String(((Binary)doc.get("img_str")).getData())));
+			assetP.add(p5);
+			
+			com.khoahung.cmc.entity.Properties p6 = new com.khoahung.cmc.entity.Properties();
+			p6.setName("extension");
+			p6.setType("String");
+			p6.setMultiple(false);
+			p6.setValues(Arrays.asList((String)doc.get("img_ext")));
+			assetP.add(p6);
+			
+			com.khoahung.cmc.entity.Properties p7 = new com.khoahung.cmc.entity.Properties();
+			p7.setName("fileName");
+			p7.setType("String");
+			p7.setMultiple(false);
+			p7.setValues(Arrays.asList((String)doc.get("fn")));
+			assetP.add(p7);
+			
+			com.khoahung.cmc.entity.Properties p8 = new com.khoahung.cmc.entity.Properties();
+			p8.setName("jcr:mimeType");
+			p8.setType("String");
+			p8.setMultiple(false);
+			p8.setValues(Arrays.asList("image/"+(String)doc.get("img_ext")));
+			assetP.add(p8);
+			
+			dp.setAssetProperties(assetP);
+			
+			URL url = new URL(properties.getProperty("mangolia_url_okm"));
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			String credentials = properties.getProperty("username") + ":" + properties.getProperty("password");
 			String basicAuth = Base64.getEncoder().encodeToString(credentials.getBytes(StandardCharsets.UTF_8));

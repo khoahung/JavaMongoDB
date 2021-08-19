@@ -75,7 +75,7 @@ class AgentMongoDB extends Thread{
 					while (it.hasNext()) {
 						Document d = (Document)it.next();
 						if(keySet.contains(d.getObjectId("_id").toHexString())) {
-							 logger.info(d.getObjectId("_id").toHexString()+ " has synchronize");
+							logger.info(d.getObjectId("_id").toHexString()+ " has synchronize");
 							continue;
 						}else {
 							list.add(d);
@@ -85,7 +85,6 @@ class AgentMongoDB extends Thread{
 							break;
 						}
 					}
-					
 					
 					for(Document doc : list) {
 						CreateAssetsMongoDB assetsThread = new CreateAssetsMongoDB(doc, properties);
