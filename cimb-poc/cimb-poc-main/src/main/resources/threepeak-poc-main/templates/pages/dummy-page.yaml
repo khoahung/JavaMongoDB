@@ -1,0 +1,10 @@
+templateScript: /cimb-poc-main/templates/pages/dummy-page.ftl
+renderType: freemarker
+visible: true
+dialog: cimb-poc-main:pages/dummy-page-properties
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      dummy-component:
+        id: cimb-poc-main:components/dummy-component

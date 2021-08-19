@@ -2085,3 +2085,787 @@
 2021-08-16 09:41:50 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085021d8993d1e8add9e has copy
 2021-08-16 09:41:50 INFO  AgentMangolia:140 - response code:200
 2021-08-16 09:41:50 INFO  AgentMangolia:142 - Asset have id = 5e9c085021d8993d1e8add9d has copy
+2021-08-17 10:46:10 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:46:10 INFO  AgentOpenKM:100 - Asset have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 has copy
+2021-08-17 10:46:11 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:46:11 INFO  AgentOpenKM:100 - Asset have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 has copy
+2021-08-17 10:46:11 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:46:11 INFO  CopySubNodeOpenKM:100 - Sub node have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 has copy
+2021-08-17 10:46:12 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:46:12 INFO  CopySubNodeOpenKM:100 - Sub node have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 has copy
+2021-08-17 10:46:12 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:46:12 INFO  AgentOpenKM:100 - Asset have id = 2bb215f0-09a2-4202-b234-1720974099d6 has copy
+2021-08-17 10:46:13 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:46:13 INFO  CopySubNodeOpenKM:100 - Sub node have id = 2bb215f0-09a2-4202-b234-1720974099d6 has copy
+2021-08-17 10:46:13 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:46:13 INFO  AgentOpenKM:100 - Asset have id = 62c152ae-0101-4d49-b617-1808862c6ae3 has copy
+2021-08-17 10:46:13 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:46:13 INFO  CopySubNodeOpenKM:100 - Sub node have id = 62c152ae-0101-4d49-b617-1808862c6ae3 has copy
+2021-08-17 10:46:13 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:46:13 INFO  AgentOpenKM:100 - Asset have id = b3b3fe89-c400-4bff-aa96-f058b720991f has copy
+2021-08-17 10:46:14 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:46:14 INFO  CopySubNodeOpenKM:100 - Sub node have id = b3b3fe89-c400-4bff-aa96-f058b720991f has copy
+2021-08-17 10:46:14 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:46:14 INFO  AgentOpenKM:100 - Asset have id = 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec has copy
+2021-08-17 10:46:15 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:46:15 INFO  CopySubNodeOpenKM:100 - Sub node have id = 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec has copy
+2021-08-17 10:46:15 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:46:15 INFO  AgentOpenKM:100 - Asset have id = 2cb588fb-8a30-4702-ba69-7cc2bc2db12b has copy
+2021-08-17 10:46:16 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:46:16 INFO  CopySubNodeOpenKM:100 - Sub node have id = 2cb588fb-8a30-4702-ba69-7cc2bc2db12b has copy
+2021-08-17 10:46:16 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:46:16 INFO  AgentOpenKM:100 - Asset have id = 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb has copy
+2021-08-17 10:46:16 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:46:16 INFO  CopySubNodeOpenKM:100 - Sub node have id = 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb has copy
+2021-08-17 10:46:16 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:46:16 INFO  AgentOpenKM:100 - Asset have id = c247cce4-b6d7-434c-a8d1-5f2de24730b2 has copy
+2021-08-17 10:46:17 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:46:17 INFO  AgentOpenKM:100 - Asset have id = 55c09ff1-98b5-4f7c-bec9-ac6e6b082673 has copy
+2021-08-17 10:46:17 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:46:17 INFO  CopySubNodeOpenKM:100 - Sub node have id = c247cce4-b6d7-434c-a8d1-5f2de24730b2 has copy
+2021-08-17 10:46:18 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:46:18 INFO  CopySubNodeOpenKM:100 - Sub node have id = 55c09ff1-98b5-4f7c-bec9-ac6e6b082673 has copy
+2021-08-17 10:46:18 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:46:18 INFO  AgentOpenKM:100 - Asset have id = b3df5ade-8081-4402-9974-2201d7f88a55 has copy
+2021-08-17 10:47:16 INFO  AgentMangolia:64 - ==============Starting Migration database===================
+2021-08-17 10:47:17 INFO  AgentOpenKM:46 - 22e24a10-2ec6-435e-8ad6-53a5456634d6 has synchronize
+2021-08-17 10:47:17 INFO  AgentOpenKM:46 - 90b0f7da-963f-4b7f-b438-79cff2c57480 has synchronize
+2021-08-17 10:47:17 INFO  AgentOpenKM:46 - 2bb215f0-09a2-4202-b234-1720974099d6 has synchronize
+2021-08-17 10:47:17 INFO  AgentOpenKM:46 - 62c152ae-0101-4d49-b617-1808862c6ae3 has synchronize
+2021-08-17 10:47:17 INFO  AgentOpenKM:46 - b3b3fe89-c400-4bff-aa96-f058b720991f has synchronize
+2021-08-17 10:47:17 INFO  AgentOpenKM:46 - 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec has synchronize
+2021-08-17 10:47:17 INFO  AgentOpenKM:46 - 2cb588fb-8a30-4702-ba69-7cc2bc2db12b has synchronize
+2021-08-17 10:47:17 INFO  AgentOpenKM:46 - 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb has synchronize
+2021-08-17 10:47:17 INFO  AgentOpenKM:46 - c247cce4-b6d7-434c-a8d1-5f2de24730b2 has synchronize
+2021-08-17 10:47:17 INFO  AgentOpenKM:46 - 55c09ff1-98b5-4f7c-bec9-ac6e6b082673 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add54 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add56 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add55 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add53 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add52 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add57 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add58 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5a has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add59 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5b has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5c has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5f has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5e has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add5d has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add60 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add62 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add61 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add64 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add63 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add65 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add67 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c084f21d8993d1e8add66 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add69 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add68 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6a has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6c has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6b has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6d has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6e has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add6f has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add70 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add71 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add73 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add72 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add74 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add75 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add76 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add77 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add78 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add79 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7a has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7b has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7e has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7d has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7c has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add80 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add7f has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add83 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add82 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add81 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add84 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add85 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add86 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add87 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add88 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8a has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add89 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8b has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8d has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8c has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8f has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add8e has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add91 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add92 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add90 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add93 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add95 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add94 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add96 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add97 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add98 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add99 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9a has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9c has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9f has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8adda0 has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9b has synchronize
+2021-08-17 10:47:19 INFO  AgentMangolia:78 - 5e9c085021d8993d1e8add9e has synchronize
+2021-08-17 10:47:20 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:20 INFO  AgentOpenKM:100 - Asset have id = b3df5ade-8081-4402-9974-2201d7f88a55 has copy
+2021-08-17 10:47:21 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:21 INFO  CopySubNodeOpenKM:100 - Sub node have id = b3df5ade-8081-4402-9974-2201d7f88a55 has copy
+2021-08-17 10:47:21 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:21 INFO  AgentOpenKM:100 - Asset have id = 0f972d30-d534-420a-95ff-8eb29d1a8a5a has copy
+2021-08-17 10:47:22 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:22 INFO  CopySubNodeOpenKM:100 - Sub node have id = 0f972d30-d534-420a-95ff-8eb29d1a8a5a has copy
+2021-08-17 10:47:22 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:22 INFO  AgentOpenKM:100 - Asset have id = 292e02d4-d4c8-4cb9-819e-03d8871940ae has copy
+2021-08-17 10:47:23 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:23 INFO  CopySubNodeOpenKM:100 - Sub node have id = 292e02d4-d4c8-4cb9-819e-03d8871940ae has copy
+2021-08-17 10:47:23 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:23 INFO  AgentOpenKM:100 - Asset have id = 0baac53e-3e23-486e-9305-ec733123fb6d has copy
+2021-08-17 10:47:24 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:24 INFO  AgentOpenKM:100 - Asset have id = 43f9d57a-27fe-44d0-a058-12506f24d572 has copy
+2021-08-17 10:47:24 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:24 INFO  CopySubNodeOpenKM:100 - Sub node have id = 0baac53e-3e23-486e-9305-ec733123fb6d has copy
+2021-08-17 10:47:25 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:25 INFO  CopySubNodeOpenKM:100 - Sub node have id = 43f9d57a-27fe-44d0-a058-12506f24d572 has copy
+2021-08-17 10:47:25 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:25 INFO  AgentOpenKM:100 - Asset have id = a4fd2c10-b771-4e67-9836-1d0bf74dd393 has copy
+2021-08-17 10:47:26 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:26 INFO  CopySubNodeOpenKM:100 - Sub node have id = a4fd2c10-b771-4e67-9836-1d0bf74dd393 has copy
+2021-08-17 10:47:26 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:26 INFO  AgentOpenKM:100 - Asset have id = 0156c354-a745-4c60-a213-605aa9e7fb0c has copy
+2021-08-17 10:47:27 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:27 INFO  AgentOpenKM:100 - Asset have id = c4bdb109-05bb-4dad-8b19-c47810cc70db has copy
+2021-08-17 10:47:27 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:27 INFO  CopySubNodeOpenKM:100 - Sub node have id = 0156c354-a745-4c60-a213-605aa9e7fb0c has copy
+2021-08-17 10:47:28 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:28 INFO  CopySubNodeOpenKM:100 - Sub node have id = c4bdb109-05bb-4dad-8b19-c47810cc70db has copy
+2021-08-17 10:47:28 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:28 INFO  AgentOpenKM:100 - Asset have id = 8fea591f-9c98-4a2b-8a60-fa9b324cb3f5 has copy
+2021-08-17 10:47:30 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:30 INFO  AgentOpenKM:100 - Asset have id = 21767358-2f20-435d-9b33-1250003d49e5 has copy
+2021-08-17 10:47:30 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:30 INFO  CopySubNodeOpenKM:100 - Sub node have id = 8fea591f-9c98-4a2b-8a60-fa9b324cb3f5 has copy
+2021-08-17 10:47:31 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:31 INFO  AgentOpenKM:100 - Asset have id = 7a37e2e9-10ac-47a4-8834-a2eb80f646b8 has copy
+2021-08-17 10:47:32 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:32 INFO  CopySubNodeOpenKM:100 - Sub node have id = 21767358-2f20-435d-9b33-1250003d49e5 has copy
+2021-08-17 10:47:33 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:33 INFO  CopySubNodeOpenKM:100 - Sub node have id = 7a37e2e9-10ac-47a4-8834-a2eb80f646b8 has copy
+2021-08-17 10:47:33 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:33 INFO  AgentOpenKM:100 - Asset have id = 8b7d5a90-a81d-48e6-82d9-d3364aae7acf has copy
+2021-08-17 10:47:34 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:34 INFO  CopySubNodeOpenKM:100 - Sub node have id = 8b7d5a90-a81d-48e6-82d9-d3364aae7acf has copy
+2021-08-17 10:47:34 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:34 INFO  AgentOpenKM:100 - Asset have id = 38557e68-5ba8-4ce4-bf4b-8b590540ebe4 has copy
+2021-08-17 10:47:35 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:35 INFO  CopySubNodeOpenKM:100 - Sub node have id = 38557e68-5ba8-4ce4-bf4b-8b590540ebe4 has copy
+2021-08-17 10:47:35 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:35 INFO  AgentOpenKM:100 - Asset have id = ec4a95aa-c567-480b-9de7-fe98ad863870 has copy
+2021-08-17 10:47:36 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:36 INFO  CopySubNodeOpenKM:100 - Sub node have id = ec4a95aa-c567-480b-9de7-fe98ad863870 has copy
+2021-08-17 10:47:36 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:36 INFO  AgentOpenKM:100 - Asset have id = 77d4e586-0110-4ae9-9fbc-5a67ce0c1604 has copy
+2021-08-17 10:47:36 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:36 INFO  AgentOpenKM:100 - Asset have id = 2ce10476-50df-4ddf-b91e-a1670aaddd08 has copy
+2021-08-17 10:47:37 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:37 INFO  CopySubNodeOpenKM:100 - Sub node have id = 77d4e586-0110-4ae9-9fbc-5a67ce0c1604 has copy
+2021-08-17 10:47:37 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:37 INFO  CopySubNodeOpenKM:100 - Sub node have id = 2ce10476-50df-4ddf-b91e-a1670aaddd08 has copy
+2021-08-17 10:47:38 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:38 INFO  AgentOpenKM:100 - Asset have id = 06d2add0-13d5-45d7-80e6-4c10fe66ec62 has copy
+2021-08-17 10:47:38 INFO  AgentMangolia:140 - response code:400
+2021-08-17 10:47:38 ERROR AgentMangolia:146 - Asset have id = 5e9c085021d8993d1e8add9d create Error
+2021-08-17 10:47:38 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:38 INFO  AgentOpenKM:100 - Asset have id = 7be10d7d-ada1-41f1-9954-751453194184 has copy
+2021-08-17 10:47:38 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:38 INFO  CopySubNodeOpenKM:100 - Sub node have id = 06d2add0-13d5-45d7-80e6-4c10fe66ec62 has copy
+2021-08-17 10:47:39 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:39 INFO  AgentMangolia:142 - Asset have id = 5e9c085021d8993d1e8adda3 has copy
+2021-08-17 10:47:39 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:39 INFO  CopySubNodeOpenKM:100 - Sub node have id = 7be10d7d-ada1-41f1-9954-751453194184 has copy
+2021-08-17 10:47:39 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:39 INFO  AgentOpenKM:100 - Asset have id = e1c74d6f-eb67-4eb0-b35e-c4b66984ff97 has copy
+2021-08-17 10:47:40 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:40 INFO  AgentOpenKM:100 - Asset have id = 44155d95-f3f0-4352-90bb-e572f89715c6 has copy
+2021-08-17 10:47:40 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:40 INFO  AgentMangolia:142 - Asset have id = 5e9c085021d8993d1e8adda1 has copy
+2021-08-17 10:47:41 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:41 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085021d8993d1e8adda3 has copy
+2021-08-17 10:47:41 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:41 INFO  CopySubNodeOpenKM:100 - Sub node have id = e1c74d6f-eb67-4eb0-b35e-c4b66984ff97 has copy
+2021-08-17 10:47:42 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:42 INFO  AgentMangolia:142 - Asset have id = 5e9c085021d8993d1e8adda2 has copy
+2021-08-17 10:47:42 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:42 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085021d8993d1e8adda1 has copy
+2021-08-17 10:47:42 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:42 INFO  CopySubNodeOpenKM:100 - Sub node have id = 44155d95-f3f0-4352-90bb-e572f89715c6 has copy
+2021-08-17 10:47:42 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:42 INFO  AgentOpenKM:100 - Asset have id = cf525585-3aab-46cf-86af-74951d0b7ace has copy
+2021-08-17 10:47:43 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:43 INFO  AgentMangolia:142 - Asset have id = 5e9c085021d8993d1e8adda5 has copy
+2021-08-17 10:47:43 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:43 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085021d8993d1e8adda2 has copy
+2021-08-17 10:47:43 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:43 INFO  CopySubNodeOpenKM:100 - Sub node have id = cf525585-3aab-46cf-86af-74951d0b7ace has copy
+2021-08-17 10:47:43 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:43 INFO  AgentOpenKM:100 - Asset have id = 5518a267-a247-42fd-8102-92107c39f33c has copy
+2021-08-17 10:47:44 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:44 INFO  AgentMangolia:142 - Asset have id = 5e9c085021d8993d1e8adda4 has copy
+2021-08-17 10:47:44 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:44 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085021d8993d1e8adda5 has copy
+2021-08-17 10:47:44 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:44 INFO  CopySubNodeOpenKM:100 - Sub node have id = 5518a267-a247-42fd-8102-92107c39f33c has copy
+2021-08-17 10:47:44 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:44 INFO  AgentOpenKM:100 - Asset have id = 680caec1-6850-4d04-9b0e-b1cd56f22bc6 has copy
+2021-08-17 10:47:45 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:45 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085021d8993d1e8adda4 has copy
+2021-08-17 10:47:45 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:45 INFO  AgentMangolia:142 - Asset have id = 5e9c085021d8993d1e8adda7 has copy
+2021-08-17 10:47:45 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:45 INFO  CopySubNodeOpenKM:100 - Sub node have id = 680caec1-6850-4d04-9b0e-b1cd56f22bc6 has copy
+2021-08-17 10:47:45 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:45 INFO  AgentOpenKM:100 - Asset have id = 9644e04d-160a-46a9-a109-30609ad616a9 has copy
+2021-08-17 10:47:45 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:45 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085021d8993d1e8adda7 has copy
+2021-08-17 10:47:46 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:46 INFO  AgentMangolia:142 - Asset have id = 5e9c085021d8993d1e8adda6 has copy
+2021-08-17 10:47:46 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:46 INFO  AgentOpenKM:100 - Asset have id = 05b03efc-de1f-45f8-9f12-08e6f6ca4a04 has copy
+2021-08-17 10:47:46 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:46 INFO  CopySubNodeOpenKM:100 - Sub node have id = 9644e04d-160a-46a9-a109-30609ad616a9 has copy
+2021-08-17 10:47:47 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:47 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085021d8993d1e8adda6 has copy
+2021-08-17 10:47:47 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:47 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8adda9 has copy
+2021-08-17 10:47:47 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:47 INFO  AgentOpenKM:100 - Asset have id = 4f4ff4f1-c48c-4011-99c1-cf4b4277549e has copy
+2021-08-17 10:47:47 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:47 INFO  CopySubNodeOpenKM:100 - Sub node have id = 05b03efc-de1f-45f8-9f12-08e6f6ca4a04 has copy
+2021-08-17 10:47:48 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:48 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8adda9 has copy
+2021-08-17 10:47:48 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:48 INFO  AgentOpenKM:100 - Asset have id = d63515f2-07e6-4cfa-b40d-082f6e2dfa5f has copy
+2021-08-17 10:47:48 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:48 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addab has copy
+2021-08-17 10:47:48 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:48 INFO  CopySubNodeOpenKM:100 - Sub node have id = 4f4ff4f1-c48c-4011-99c1-cf4b4277549e has copy
+2021-08-17 10:47:49 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:49 INFO  AgentMangolia:142 - Asset have id = 5e9c085021d8993d1e8adda8 has copy
+2021-08-17 10:47:49 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:49 INFO  CopySubNodeOpenKM:100 - Sub node have id = d63515f2-07e6-4cfa-b40d-082f6e2dfa5f has copy
+2021-08-17 10:47:49 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:49 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addab has copy
+2021-08-17 10:47:49 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:49 INFO  AgentOpenKM:100 - Asset have id = f2a4bc2c-af32-40dc-8d83-a62932af2531 has copy
+2021-08-17 10:47:49 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:49 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addaa has copy
+2021-08-17 10:47:49 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:49 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085021d8993d1e8adda8 has copy
+2021-08-17 10:47:50 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:50 INFO  AgentOpenKM:100 - Asset have id = 4283beba-838f-48b8-802d-124ad6622dac has copy
+2021-08-17 10:47:50 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:50 INFO  CopySubNodeOpenKM:100 - Sub node have id = f2a4bc2c-af32-40dc-8d83-a62932af2531 has copy
+2021-08-17 10:47:50 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:50 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addaa has copy
+2021-08-17 10:47:51 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:51 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addac has copy
+2021-08-17 10:47:51 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:51 INFO  AgentOpenKM:100 - Asset have id = e3c6af3f-ef03-417a-9901-b02fa1ade434 has copy
+2021-08-17 10:47:51 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:51 INFO  CopySubNodeOpenKM:100 - Sub node have id = 4283beba-838f-48b8-802d-124ad6622dac has copy
+2021-08-17 10:47:52 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:52 INFO  CopySubNodeOpenKM:100 - Sub node have id = e3c6af3f-ef03-417a-9901-b02fa1ade434 has copy
+2021-08-17 10:47:52 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:52 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addac has copy
+2021-08-17 10:47:52 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:52 INFO  AgentOpenKM:100 - Asset have id = a16fd927-1d56-4557-8676-7927d4e6c48e has copy
+2021-08-17 10:47:52 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:52 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addaf has copy
+2021-08-17 10:47:53 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:53 INFO  AgentOpenKM:100 - Asset have id = 4d13637f-a19b-492b-9251-e390e16c1972 has copy
+2021-08-17 10:47:53 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:53 INFO  CopySubNodeOpenKM:100 - Sub node have id = a16fd927-1d56-4557-8676-7927d4e6c48e has copy
+2021-08-17 10:47:53 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:53 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addaf has copy
+2021-08-17 10:47:53 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:53 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addad has copy
+2021-08-17 10:47:54 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:54 INFO  CopySubNodeOpenKM:100 - Sub node have id = 4d13637f-a19b-492b-9251-e390e16c1972 has copy
+2021-08-17 10:47:54 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:54 INFO  AgentOpenKM:100 - Asset have id = 9d91a41a-8c32-4819-bf76-2fc7ed39b3d5 has copy
+2021-08-17 10:47:54 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:54 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addad has copy
+2021-08-17 10:47:54 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:54 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addae has copy
+2021-08-17 10:47:55 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:55 INFO  AgentOpenKM:100 - Asset have id = 7a2e00ed-5ad9-4361-8116-082959f306e9 has copy
+2021-08-17 10:47:55 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:55 INFO  CopySubNodeOpenKM:100 - Sub node have id = 9d91a41a-8c32-4819-bf76-2fc7ed39b3d5 has copy
+2021-08-17 10:47:55 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:55 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addae has copy
+2021-08-17 10:47:55 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:55 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb2 has copy
+2021-08-17 10:47:56 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:56 INFO  AgentOpenKM:100 - Asset have id = 374fa6f5-e7c1-4567-b47e-19361d416711 has copy
+2021-08-17 10:47:56 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:56 INFO  CopySubNodeOpenKM:100 - Sub node have id = 7a2e00ed-5ad9-4361-8116-082959f306e9 has copy
+2021-08-17 10:47:56 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:56 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb1 has copy
+2021-08-17 10:47:56 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:56 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addb2 has copy
+2021-08-17 10:47:56 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:56 INFO  CopySubNodeOpenKM:100 - Sub node have id = 374fa6f5-e7c1-4567-b47e-19361d416711 has copy
+2021-08-17 10:47:57 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:57 INFO  AgentOpenKM:100 - Asset have id = fe08fbd9-d68a-4471-960f-ad1cfd3752ac has copy
+2021-08-17 10:47:57 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:57 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addb1 has copy
+2021-08-17 10:47:57 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:57 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb3 has copy
+2021-08-17 10:47:58 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:58 INFO  CopySubNodeOpenKM:100 - Sub node have id = fe08fbd9-d68a-4471-960f-ad1cfd3752ac has copy
+2021-08-17 10:47:58 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:58 INFO  AgentOpenKM:100 - Asset have id = c540f71f-da30-42c3-bdcc-aa284718fceb has copy
+2021-08-17 10:47:58 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:58 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addb3 has copy
+2021-08-17 10:47:58 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:58 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb4 has copy
+2021-08-17 10:47:58 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:58 INFO  AgentOpenKM:100 - Asset have id = 0c60187e-e484-494c-8eb3-3468d4df5cda has copy
+2021-08-17 10:47:59 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:59 INFO  CopySubNodeOpenKM:100 - Sub node have id = c540f71f-da30-42c3-bdcc-aa284718fceb has copy
+2021-08-17 10:47:59 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:47:59 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb0 has copy
+2021-08-17 10:47:59 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:47:59 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addb4 has copy
+2021-08-17 10:47:59 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:47:59 INFO  CopySubNodeOpenKM:100 - Sub node have id = 0c60187e-e484-494c-8eb3-3468d4df5cda has copy
+2021-08-17 10:47:59 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:47:59 INFO  AgentOpenKM:100 - Asset have id = e0774189-2794-4e44-8765-57fc13c08df7 has copy
+2021-08-17 10:48:01 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:01 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb5 has copy
+2021-08-17 10:48:01 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:01 INFO  AgentOpenKM:100 - Asset have id = c4f3037e-5ea8-4220-a600-fffdd5dd7d01 has copy
+2021-08-17 10:48:01 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:01 INFO  CopySubNodeOpenKM:100 - Sub node have id = e0774189-2794-4e44-8765-57fc13c08df7 has copy
+2021-08-17 10:48:01 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:01 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addb0 has copy
+2021-08-17 10:48:02 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:02 INFO  CopySubNodeOpenKM:100 - Sub node have id = c4f3037e-5ea8-4220-a600-fffdd5dd7d01 has copy
+2021-08-17 10:48:02 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:02 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb7 has copy
+2021-08-17 10:48:02 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:02 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addb5 has copy
+2021-08-17 10:48:02 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:02 INFO  AgentOpenKM:100 - Asset have id = 35f80213-751c-4dbf-90ba-7d5d72f95b15 has copy
+2021-08-17 10:48:03 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:03 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb6 has copy
+2021-08-17 10:48:03 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:03 INFO  AgentOpenKM:100 - Asset have id = def2dba8-4923-4ec3-9e52-d351471a7d9f has copy
+2021-08-17 10:48:03 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:03 INFO  CopySubNodeOpenKM:100 - Sub node have id = 35f80213-751c-4dbf-90ba-7d5d72f95b15 has copy
+2021-08-17 10:48:03 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:03 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addb7 has copy
+2021-08-17 10:48:04 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:04 INFO  CopySubNodeOpenKM:100 - Sub node have id = def2dba8-4923-4ec3-9e52-d351471a7d9f has copy
+2021-08-17 10:48:04 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:04 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addb6 has copy
+2021-08-17 10:48:04 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:04 INFO  AgentOpenKM:100 - Asset have id = 6dfca5c1-0ae1-4502-aa14-2c97141d97c5 has copy
+2021-08-17 10:48:04 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:04 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb9 has copy
+2021-08-17 10:48:05 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:05 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addb9 has copy
+2021-08-17 10:48:05 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:05 INFO  AgentOpenKM:100 - Asset have id = 4b818988-43cd-495c-9c80-fa3979b09da1 has copy
+2021-08-17 10:48:05 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:05 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addba has copy
+2021-08-17 10:48:06 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:06 INFO  CopySubNodeOpenKM:100 - Sub node have id = 6dfca5c1-0ae1-4502-aa14-2c97141d97c5 has copy
+2021-08-17 10:48:06 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:06 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addba has copy
+2021-08-17 10:48:06 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:06 INFO  CopySubNodeOpenKM:100 - Sub node have id = 4b818988-43cd-495c-9c80-fa3979b09da1 has copy
+2021-08-17 10:48:06 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:06 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addb8 has copy
+2021-08-17 10:48:06 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:06 INFO  AgentOpenKM:100 - Asset have id = 38e55ec5-f1ae-4a89-b6e4-a7db5165dbfe has copy
+2021-08-17 10:48:07 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:07 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addbb has copy
+2021-08-17 10:48:07 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:07 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addb8 has copy
+2021-08-17 10:48:07 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:07 INFO  AgentOpenKM:100 - Asset have id = c124de2e-5a91-448f-8f51-6338adbb95cc has copy
+2021-08-17 10:48:08 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:08 INFO  CopySubNodeOpenKM:100 - Sub node have id = 38e55ec5-f1ae-4a89-b6e4-a7db5165dbfe has copy
+2021-08-17 10:48:08 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:08 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addbb has copy
+2021-08-17 10:48:08 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:08 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addbc has copy
+2021-08-17 10:48:08 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:08 INFO  AgentOpenKM:100 - Asset have id = f3c7b365-d8c1-43fb-94d2-6401794454ab has copy
+2021-08-17 10:48:08 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:08 INFO  CopySubNodeOpenKM:100 - Sub node have id = c124de2e-5a91-448f-8f51-6338adbb95cc has copy
+2021-08-17 10:48:09 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:09 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addbc has copy
+2021-08-17 10:48:09 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:09 INFO  AgentOpenKM:100 - Asset have id = d076aae1-b04a-4608-a453-8f3f2116b5b6 has copy
+2021-08-17 10:48:09 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:09 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addbd has copy
+2021-08-17 10:48:09 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:09 INFO  CopySubNodeOpenKM:100 - Sub node have id = f3c7b365-d8c1-43fb-94d2-6401794454ab has copy
+2021-08-17 10:48:11 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:11 INFO  AgentOpenKM:100 - Asset have id = 9feac75c-7331-4825-934a-4fcb59642906 has copy
+2021-08-17 10:48:11 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:11 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc0 has copy
+2021-08-17 10:48:11 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:11 INFO  CopySubNodeOpenKM:100 - Sub node have id = d076aae1-b04a-4608-a453-8f3f2116b5b6 has copy
+2021-08-17 10:48:12 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:12 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addbd has copy
+2021-08-17 10:48:12 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:12 INFO  AgentOpenKM:100 - Asset have id = 710611c6-d433-4db7-8f09-45cdf091bcee has copy
+2021-08-17 10:48:12 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:12 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addc0 has copy
+2021-08-17 10:48:13 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:13 INFO  CopySubNodeOpenKM:100 - Sub node have id = 9feac75c-7331-4825-934a-4fcb59642906 has copy
+2021-08-17 10:48:13 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:13 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addbe has copy
+2021-08-17 10:48:13 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:13 INFO  CopySubNodeOpenKM:100 - Sub node have id = 710611c6-d433-4db7-8f09-45cdf091bcee has copy
+2021-08-17 10:48:14 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:14 INFO  AgentOpenKM:100 - Asset have id = 21bf0804-7ea4-42dd-a8e9-a63a7978f94d has copy
+2021-08-17 10:48:14 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:14 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addbf has copy
+2021-08-17 10:48:15 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:15 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addbe has copy
+2021-08-17 10:48:15 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:15 INFO  AgentOpenKM:100 - Asset have id = edbbda0a-a9b5-4017-82f6-0e02498494d9 has copy
+2021-08-17 10:48:15 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:15 INFO  CopySubNodeOpenKM:100 - Sub node have id = 21bf0804-7ea4-42dd-a8e9-a63a7978f94d has copy
+2021-08-17 10:48:15 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:15 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc3 has copy
+2021-08-17 10:48:15 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:15 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addbf has copy
+2021-08-17 10:48:16 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:16 INFO  CopySubNodeOpenKM:100 - Sub node have id = edbbda0a-a9b5-4017-82f6-0e02498494d9 has copy
+2021-08-17 10:48:16 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:16 INFO  AgentOpenKM:100 - Asset have id = 1860214c-82df-4e12-8126-996cfe29146b has copy
+2021-08-17 10:48:16 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:16 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc2 has copy
+2021-08-17 10:48:17 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:17 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addc3 has copy
+2021-08-17 10:48:17 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:17 INFO  CopySubNodeOpenKM:100 - Sub node have id = 1860214c-82df-4e12-8126-996cfe29146b has copy
+2021-08-17 10:48:18 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:18 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addc2 has copy
+2021-08-17 10:48:18 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:18 INFO  AgentOpenKM:100 - Asset have id = da6c803d-859b-43b9-9594-fea0571b4c99 has copy
+2021-08-17 10:48:18 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:18 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc1 has copy
+2021-08-17 10:48:19 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:19 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addc1 has copy
+2021-08-17 10:48:19 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:19 INFO  CopySubNodeOpenKM:100 - Sub node have id = da6c803d-859b-43b9-9594-fea0571b4c99 has copy
+2021-08-17 10:48:19 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:19 INFO  AgentOpenKM:100 - Asset have id = e7d40dcf-6ec7-40ef-9318-b124767c567c has copy
+2021-08-17 10:48:19 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:19 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc5 has copy
+2021-08-17 10:48:20 INFO  AgentOpenKM:98 - response code:200
+2021-08-17 10:48:20 INFO  AgentOpenKM:100 - Asset have id = 1dedfe19-1ad6-44d1-a975-b70b3c524de7 has copy
+2021-08-17 10:48:20 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:20 INFO  CopySubNodeOpenKM:100 - Sub node have id = e7d40dcf-6ec7-40ef-9318-b124767c567c has copy
+2021-08-17 10:48:20 INFO  CopySubNodeMangolia:94 - response code:200
+2021-08-17 10:48:20 INFO  CopySubNodeMangolia:96 - Sub node have id = 5e9c085121d8993d1e8addc5 has copy
+2021-08-17 10:48:22 INFO  AgentMangolia:140 - response code:200
+2021-08-17 10:48:22 INFO  AgentMangolia:142 - Asset have id = 5e9c085121d8993d1e8addc4 has copy
+2021-08-17 10:48:22 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-17 10:48:22 INFO  CopySubNodeOpenKM:100 - Sub node have id = 1dedfe19-1ad6-44d1-a975-b70b3c524de7 has copy
+2021-08-19 09:46:58 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:46:58 ERROR AgentOpenKM:106 - Asset have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 create Error
+2021-08-19 09:46:59 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:46:59 ERROR AgentOpenKM:106 - Asset have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 create Error
+2021-08-19 09:46:59 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:46:59 ERROR AgentOpenKM:106 - Asset have id = 2bb215f0-09a2-4202-b234-1720974099d6 create Error
+2021-08-19 09:47:00 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:47:00 ERROR AgentOpenKM:106 - Asset have id = 62c152ae-0101-4d49-b617-1808862c6ae3 create Error
+2021-08-19 09:47:00 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:47:00 ERROR AgentOpenKM:106 - Asset have id = b3b3fe89-c400-4bff-aa96-f058b720991f create Error
+2021-08-19 09:47:01 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:47:01 ERROR AgentOpenKM:106 - Asset have id = 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec create Error
+2021-08-19 09:47:01 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:47:01 ERROR AgentOpenKM:106 - Asset have id = 2cb588fb-8a30-4702-ba69-7cc2bc2db12b create Error
+2021-08-19 09:47:02 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:47:02 ERROR AgentOpenKM:106 - Asset have id = 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb create Error
+2021-08-19 09:47:02 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:47:02 ERROR AgentOpenKM:106 - Asset have id = c247cce4-b6d7-434c-a8d1-5f2de24730b2 create Error
+2021-08-19 09:47:03 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:47:03 ERROR AgentOpenKM:106 - Asset have id = 55c09ff1-98b5-4f7c-bec9-ac6e6b082673 create Error
+2021-08-19 09:47:03 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:47:03 ERROR AgentOpenKM:106 - Asset have id = b3df5ade-8081-4402-9974-2201d7f88a55 create Error
+2021-08-19 09:52:53 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:52:53 ERROR AgentOpenKM:106 - Asset have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 create Error
+2021-08-19 09:52:53 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:52:53 ERROR AgentOpenKM:106 - Asset have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 create Error
+2021-08-19 09:52:54 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:52:54 ERROR AgentOpenKM:106 - Asset have id = 2bb215f0-09a2-4202-b234-1720974099d6 create Error
+2021-08-19 09:52:54 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:52:54 ERROR AgentOpenKM:106 - Asset have id = 62c152ae-0101-4d49-b617-1808862c6ae3 create Error
+2021-08-19 09:52:54 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:52:54 ERROR AgentOpenKM:106 - Asset have id = b3b3fe89-c400-4bff-aa96-f058b720991f create Error
+2021-08-19 09:52:55 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:52:55 ERROR AgentOpenKM:106 - Asset have id = 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec create Error
+2021-08-19 09:52:56 INFO  AgentOpenKM:98 - response code:400
+2021-08-19 09:52:56 ERROR AgentOpenKM:106 - Asset have id = 2cb588fb-8a30-4702-ba69-7cc2bc2db12b create Error
+2021-08-19 09:55:29 INFO  AgentOpenKM:98 - response code:404
+2021-08-19 09:55:29 ERROR AgentOpenKM:106 - Asset have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 create Error
+2021-08-19 09:55:30 INFO  AgentOpenKM:98 - response code:404
+2021-08-19 09:55:30 ERROR AgentOpenKM:106 - Asset have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 create Error
+2021-08-19 09:55:30 INFO  AgentOpenKM:98 - response code:404
+2021-08-19 09:55:30 ERROR AgentOpenKM:106 - Asset have id = 2bb215f0-09a2-4202-b234-1720974099d6 create Error
+2021-08-19 09:55:31 INFO  AgentOpenKM:98 - response code:404
+2021-08-19 09:55:31 ERROR AgentOpenKM:106 - Asset have id = 62c152ae-0101-4d49-b617-1808862c6ae3 create Error
+2021-08-19 09:55:31 INFO  AgentOpenKM:98 - response code:404
+2021-08-19 09:55:31 ERROR AgentOpenKM:106 - Asset have id = b3b3fe89-c400-4bff-aa96-f058b720991f create Error
+2021-08-19 09:55:32 INFO  AgentOpenKM:98 - response code:404
+2021-08-19 09:55:32 ERROR AgentOpenKM:106 - Asset have id = 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec create Error
+2021-08-19 09:55:32 INFO  AgentOpenKM:98 - response code:404
+2021-08-19 09:55:32 ERROR AgentOpenKM:106 - Asset have id = 2cb588fb-8a30-4702-ba69-7cc2bc2db12b create Error
+2021-08-19 09:55:33 INFO  AgentOpenKM:98 - response code:404
+2021-08-19 09:55:33 ERROR AgentOpenKM:106 - Asset have id = 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb create Error
+2021-08-19 09:56:13 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:56:13 INFO  AgentOpenKM:100 - Asset have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 has copy
+2021-08-19 09:56:14 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:56:14 INFO  AgentOpenKM:100 - Asset have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 has copy
+2021-08-19 09:56:14 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 09:56:14 INFO  CopySubNodeOpenKM:100 - Sub node have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 has copy
+2021-08-19 09:56:15 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 09:56:15 INFO  CopySubNodeOpenKM:100 - Sub node have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 has copy
+2021-08-19 09:56:15 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:56:15 INFO  AgentOpenKM:100 - Asset have id = 2bb215f0-09a2-4202-b234-1720974099d6 has copy
+2021-08-19 09:56:16 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 09:56:16 INFO  CopySubNodeOpenKM:100 - Sub node have id = 2bb215f0-09a2-4202-b234-1720974099d6 has copy
+2021-08-19 09:56:16 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:56:16 INFO  AgentOpenKM:100 - Asset have id = 62c152ae-0101-4d49-b617-1808862c6ae3 has copy
+2021-08-19 09:56:17 INFO  CopySubNodeOpenKM:114 - response code:404
+2021-08-19 09:56:17 ERROR CopySubNodeOpenKM:118 - Asset have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 create Error
+2021-08-19 09:56:18 INFO  CopySubNodeOpenKM:114 - response code:404
+2021-08-19 09:56:18 ERROR CopySubNodeOpenKM:118 - Asset have id = 2bb215f0-09a2-4202-b234-1720974099d6 create Error
+2021-08-19 09:56:18 INFO  CopySubNodeOpenKM:114 - response code:404
+2021-08-19 09:56:18 ERROR CopySubNodeOpenKM:118 - Asset have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 create Error
+2021-08-19 09:56:18 INFO  CopySubNodeOpenKM:114 - response code:404
+2021-08-19 09:56:18 ERROR CopySubNodeOpenKM:118 - Asset have id = 62c152ae-0101-4d49-b617-1808862c6ae3 create Error
+2021-08-19 09:56:18 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:56:18 INFO  AgentOpenKM:100 - Asset have id = b3b3fe89-c400-4bff-aa96-f058b720991f has copy
+2021-08-19 09:56:18 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 09:56:18 INFO  CopySubNodeOpenKM:100 - Sub node have id = 62c152ae-0101-4d49-b617-1808862c6ae3 has copy
+2021-08-19 09:56:18 INFO  CopySubNodeOpenKM:114 - response code:404
+2021-08-19 09:56:18 ERROR CopySubNodeOpenKM:118 - Asset have id = b3b3fe89-c400-4bff-aa96-f058b720991f create Error
+2021-08-19 09:56:18 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 09:56:18 INFO  CopySubNodeOpenKM:100 - Sub node have id = b3b3fe89-c400-4bff-aa96-f058b720991f has copy
+2021-08-19 09:56:18 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:56:18 INFO  AgentOpenKM:100 - Asset have id = 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec has copy
+2021-08-19 09:56:19 INFO  CopySubNodeOpenKM:114 - response code:404
+2021-08-19 09:56:19 ERROR CopySubNodeOpenKM:118 - Asset have id = 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec create Error
+2021-08-19 09:56:19 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:56:19 INFO  AgentOpenKM:100 - Asset have id = 2cb588fb-8a30-4702-ba69-7cc2bc2db12b has copy
+2021-08-19 09:56:19 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 09:56:19 INFO  CopySubNodeOpenKM:100 - Sub node have id = 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec has copy
+2021-08-19 09:56:20 INFO  CopySubNodeOpenKM:114 - response code:404
+2021-08-19 09:56:20 ERROR CopySubNodeOpenKM:118 - Asset have id = 2cb588fb-8a30-4702-ba69-7cc2bc2db12b create Error
+2021-08-19 09:56:20 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:56:20 INFO  AgentOpenKM:100 - Asset have id = 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb has copy
+2021-08-19 09:56:20 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 09:56:20 INFO  CopySubNodeOpenKM:100 - Sub node have id = 2cb588fb-8a30-4702-ba69-7cc2bc2db12b has copy
+2021-08-19 09:59:03 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:03 INFO  AgentOpenKM:100 - Asset have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 has copy
+2021-08-19 09:59:04 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:04 INFO  AgentOpenKM:100 - Asset have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 has copy
+2021-08-19 09:59:05 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:05 INFO  AgentOpenKM:100 - Asset have id = 2bb215f0-09a2-4202-b234-1720974099d6 has copy
+2021-08-19 09:59:05 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:05 INFO  AgentOpenKM:100 - Asset have id = 62c152ae-0101-4d49-b617-1808862c6ae3 has copy
+2021-08-19 09:59:06 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:06 INFO  AgentOpenKM:100 - Asset have id = b3b3fe89-c400-4bff-aa96-f058b720991f has copy
+2021-08-19 09:59:06 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:06 INFO  AgentOpenKM:100 - Asset have id = 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec has copy
+2021-08-19 09:59:07 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:07 INFO  AgentOpenKM:100 - Asset have id = 2cb588fb-8a30-4702-ba69-7cc2bc2db12b has copy
+2021-08-19 09:59:07 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:07 INFO  AgentOpenKM:100 - Asset have id = 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb has copy
+2021-08-19 09:59:08 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:08 INFO  AgentOpenKM:100 - Asset have id = c247cce4-b6d7-434c-a8d1-5f2de24730b2 has copy
+2021-08-19 09:59:09 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:09 INFO  AgentOpenKM:100 - Asset have id = 55c09ff1-98b5-4f7c-bec9-ac6e6b082673 has copy
+2021-08-19 09:59:09 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:09 INFO  AgentOpenKM:100 - Asset have id = b3df5ade-8081-4402-9974-2201d7f88a55 has copy
+2021-08-19 09:59:10 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:10 INFO  AgentOpenKM:100 - Asset have id = 0f972d30-d534-420a-95ff-8eb29d1a8a5a has copy
+2021-08-19 09:59:10 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:10 INFO  AgentOpenKM:100 - Asset have id = 292e02d4-d4c8-4cb9-819e-03d8871940ae has copy
+2021-08-19 09:59:11 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:11 INFO  AgentOpenKM:100 - Asset have id = 0baac53e-3e23-486e-9305-ec733123fb6d has copy
+2021-08-19 09:59:12 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:12 INFO  AgentOpenKM:100 - Asset have id = 43f9d57a-27fe-44d0-a058-12506f24d572 has copy
+2021-08-19 09:59:12 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:12 INFO  AgentOpenKM:100 - Asset have id = a4fd2c10-b771-4e67-9836-1d0bf74dd393 has copy
+2021-08-19 09:59:13 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:13 INFO  AgentOpenKM:100 - Asset have id = 0156c354-a745-4c60-a213-605aa9e7fb0c has copy
+2021-08-19 09:59:13 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:13 INFO  AgentOpenKM:100 - Asset have id = c4bdb109-05bb-4dad-8b19-c47810cc70db has copy
+2021-08-19 09:59:13 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:13 INFO  AgentOpenKM:100 - Asset have id = 8fea591f-9c98-4a2b-8a60-fa9b324cb3f5 has copy
+2021-08-19 09:59:14 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:14 INFO  AgentOpenKM:100 - Asset have id = 21767358-2f20-435d-9b33-1250003d49e5 has copy
+2021-08-19 09:59:14 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:14 INFO  AgentOpenKM:100 - Asset have id = 7a37e2e9-10ac-47a4-8834-a2eb80f646b8 has copy
+2021-08-19 09:59:15 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:15 INFO  AgentOpenKM:100 - Asset have id = 8b7d5a90-a81d-48e6-82d9-d3364aae7acf has copy
+2021-08-19 09:59:15 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:15 INFO  AgentOpenKM:100 - Asset have id = 38557e68-5ba8-4ce4-bf4b-8b590540ebe4 has copy
+2021-08-19 09:59:16 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:16 INFO  AgentOpenKM:100 - Asset have id = ec4a95aa-c567-480b-9de7-fe98ad863870 has copy
+2021-08-19 09:59:17 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:17 INFO  AgentOpenKM:100 - Asset have id = 77d4e586-0110-4ae9-9fbc-5a67ce0c1604 has copy
+2021-08-19 09:59:17 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:17 INFO  AgentOpenKM:100 - Asset have id = 2ce10476-50df-4ddf-b91e-a1670aaddd08 has copy
+2021-08-19 09:59:18 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:18 INFO  AgentOpenKM:100 - Asset have id = 06d2add0-13d5-45d7-80e6-4c10fe66ec62 has copy
+2021-08-19 09:59:19 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:19 INFO  AgentOpenKM:100 - Asset have id = 7be10d7d-ada1-41f1-9954-751453194184 has copy
+2021-08-19 09:59:19 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:19 INFO  AgentOpenKM:100 - Asset have id = e1c74d6f-eb67-4eb0-b35e-c4b66984ff97 has copy
+2021-08-19 09:59:20 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:20 INFO  AgentOpenKM:100 - Asset have id = 44155d95-f3f0-4352-90bb-e572f89715c6 has copy
+2021-08-19 09:59:20 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:20 INFO  AgentOpenKM:100 - Asset have id = cf525585-3aab-46cf-86af-74951d0b7ace has copy
+2021-08-19 09:59:21 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:21 INFO  AgentOpenKM:100 - Asset have id = 5518a267-a247-42fd-8102-92107c39f33c has copy
+2021-08-19 09:59:21 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:21 INFO  AgentOpenKM:100 - Asset have id = 680caec1-6850-4d04-9b0e-b1cd56f22bc6 has copy
+2021-08-19 09:59:22 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:22 INFO  AgentOpenKM:100 - Asset have id = 9644e04d-160a-46a9-a109-30609ad616a9 has copy
+2021-08-19 09:59:22 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:22 INFO  AgentOpenKM:100 - Asset have id = 05b03efc-de1f-45f8-9f12-08e6f6ca4a04 has copy
+2021-08-19 09:59:23 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:23 INFO  AgentOpenKM:100 - Asset have id = 4f4ff4f1-c48c-4011-99c1-cf4b4277549e has copy
+2021-08-19 09:59:24 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:24 INFO  AgentOpenKM:100 - Asset have id = d63515f2-07e6-4cfa-b40d-082f6e2dfa5f has copy
+2021-08-19 09:59:24 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:24 INFO  AgentOpenKM:100 - Asset have id = f2a4bc2c-af32-40dc-8d83-a62932af2531 has copy
+2021-08-19 09:59:25 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:25 INFO  AgentOpenKM:100 - Asset have id = 4283beba-838f-48b8-802d-124ad6622dac has copy
+2021-08-19 09:59:25 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:25 INFO  AgentOpenKM:100 - Asset have id = e3c6af3f-ef03-417a-9901-b02fa1ade434 has copy
+2021-08-19 09:59:26 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:26 INFO  AgentOpenKM:100 - Asset have id = a16fd927-1d56-4557-8676-7927d4e6c48e has copy
+2021-08-19 09:59:26 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:26 INFO  AgentOpenKM:100 - Asset have id = 4d13637f-a19b-492b-9251-e390e16c1972 has copy
+2021-08-19 09:59:27 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:27 INFO  AgentOpenKM:100 - Asset have id = 9d91a41a-8c32-4819-bf76-2fc7ed39b3d5 has copy
+2021-08-19 09:59:28 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:28 INFO  AgentOpenKM:100 - Asset have id = 7a2e00ed-5ad9-4361-8116-082959f306e9 has copy
+2021-08-19 09:59:29 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:29 INFO  AgentOpenKM:100 - Asset have id = 374fa6f5-e7c1-4567-b47e-19361d416711 has copy
+2021-08-19 09:59:30 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:30 INFO  AgentOpenKM:100 - Asset have id = fe08fbd9-d68a-4471-960f-ad1cfd3752ac has copy
+2021-08-19 09:59:30 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:30 INFO  AgentOpenKM:100 - Asset have id = c540f71f-da30-42c3-bdcc-aa284718fceb has copy
+2021-08-19 09:59:31 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:31 INFO  AgentOpenKM:100 - Asset have id = 0c60187e-e484-494c-8eb3-3468d4df5cda has copy
+2021-08-19 09:59:32 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:32 INFO  AgentOpenKM:100 - Asset have id = e0774189-2794-4e44-8765-57fc13c08df7 has copy
+2021-08-19 09:59:32 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:32 INFO  AgentOpenKM:100 - Asset have id = c4f3037e-5ea8-4220-a600-fffdd5dd7d01 has copy
+2021-08-19 09:59:33 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:33 INFO  AgentOpenKM:100 - Asset have id = 35f80213-751c-4dbf-90ba-7d5d72f95b15 has copy
+2021-08-19 09:59:34 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:34 INFO  AgentOpenKM:100 - Asset have id = def2dba8-4923-4ec3-9e52-d351471a7d9f has copy
+2021-08-19 09:59:34 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:34 INFO  AgentOpenKM:100 - Asset have id = 6dfca5c1-0ae1-4502-aa14-2c97141d97c5 has copy
+2021-08-19 09:59:35 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:35 INFO  AgentOpenKM:100 - Asset have id = 4b818988-43cd-495c-9c80-fa3979b09da1 has copy
+2021-08-19 09:59:36 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:36 INFO  AgentOpenKM:100 - Asset have id = 38e55ec5-f1ae-4a89-b6e4-a7db5165dbfe has copy
+2021-08-19 09:59:36 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:36 INFO  AgentOpenKM:100 - Asset have id = c124de2e-5a91-448f-8f51-6338adbb95cc has copy
+2021-08-19 09:59:37 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:37 INFO  AgentOpenKM:100 - Asset have id = f3c7b365-d8c1-43fb-94d2-6401794454ab has copy
+2021-08-19 09:59:37 INFO  CreateAssetsOpenKM:114 - response code:404
+2021-08-19 09:59:38 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:38 INFO  AgentOpenKM:100 - Asset have id = d076aae1-b04a-4608-a453-8f3f2116b5b6 has copy
+2021-08-19 09:59:39 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:39 INFO  AgentOpenKM:100 - Asset have id = 9feac75c-7331-4825-934a-4fcb59642906 has copy
+2021-08-19 09:59:39 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:39 INFO  AgentOpenKM:100 - Asset have id = 710611c6-d433-4db7-8f09-45cdf091bcee has copy
+2021-08-19 09:59:40 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:40 INFO  AgentOpenKM:100 - Asset have id = 21bf0804-7ea4-42dd-a8e9-a63a7978f94d has copy
+2021-08-19 09:59:41 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:41 INFO  AgentOpenKM:100 - Asset have id = edbbda0a-a9b5-4017-82f6-0e02498494d9 has copy
+2021-08-19 09:59:41 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:41 INFO  AgentOpenKM:100 - Asset have id = 1860214c-82df-4e12-8126-996cfe29146b has copy
+2021-08-19 09:59:42 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 09:59:42 INFO  AgentOpenKM:100 - Asset have id = da6c803d-859b-43b9-9594-fea0571b4c99 has copy
+2021-08-19 10:04:39 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 10:04:40 INFO  AgentOpenKM:100 - Asset have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 has copy
+2021-08-19 10:05:15 INFO  CreateAssetsOpenKM:113 - response code:200
+2021-08-19 10:05:17 INFO  CreateAssetsOpenKM:115 - Sub node have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 has copy
+2021-08-19 10:05:53 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 10:05:55 INFO  CopySubNodeOpenKM:100 - Sub node have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 has copy
+2021-08-19 10:16:53 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 10:16:53 INFO  AgentOpenKM:100 - Asset have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 has copy
+2021-08-19 10:16:54 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 10:16:54 INFO  AgentOpenKM:100 - Asset have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 has copy
+2021-08-19 10:16:54 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 10:16:54 INFO  CopySubNodeOpenKM:100 - Sub node have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 has copy
+2021-08-19 10:16:56 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 10:16:56 INFO  CopySubNodeOpenKM:100 - Sub node have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 has copy
+2021-08-19 10:16:56 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 10:16:56 INFO  AgentOpenKM:100 - Asset have id = 2bb215f0-09a2-4202-b234-1720974099d6 has copy
+2021-08-19 10:16:57 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 10:16:57 INFO  CopySubNodeOpenKM:100 - Sub node have id = 2bb215f0-09a2-4202-b234-1720974099d6 has copy
+2021-08-19 10:16:57 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 10:16:57 INFO  AgentOpenKM:100 - Asset have id = 62c152ae-0101-4d49-b617-1808862c6ae3 has copy
+2021-08-19 10:16:59 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 10:16:59 INFO  CopySubNodeOpenKM:100 - Sub node have id = 62c152ae-0101-4d49-b617-1808862c6ae3 has copy
+2021-08-19 10:16:59 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 10:16:59 INFO  AgentOpenKM:100 - Asset have id = b3b3fe89-c400-4bff-aa96-f058b720991f has copy
+2021-08-19 10:16:59 INFO  CreateAssetsOpenKM:113 - response code:200
+2021-08-19 10:16:59 INFO  CreateAssetsOpenKM:115 - Sub node have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 has copy
+2021-08-19 10:17:00 INFO  CreateAssetsOpenKM:113 - response code:200
+2021-08-19 10:17:00 INFO  CreateAssetsOpenKM:115 - Sub node have id = 2bb215f0-09a2-4202-b234-1720974099d6 has copy
+2021-08-19 10:17:00 INFO  CreateAssetsOpenKM:113 - response code:200
+2021-08-19 10:17:00 INFO  CreateAssetsOpenKM:115 - Sub node have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 has copy
+2021-08-19 10:17:01 INFO  CreateAssetsOpenKM:113 - response code:200
+2021-08-19 10:17:01 INFO  CreateAssetsOpenKM:115 - Sub node have id = 62c152ae-0101-4d49-b617-1808862c6ae3 has copy
+2021-08-19 10:17:01 INFO  CreateAssetsOpenKM:113 - response code:200
+2021-08-19 10:17:01 INFO  CreateAssetsOpenKM:115 - Sub node have id = b3b3fe89-c400-4bff-aa96-f058b720991f has copy
+2021-08-19 10:17:02 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 10:17:02 INFO  AgentOpenKM:100 - Asset have id = 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec has copy
+2021-08-19 10:17:02 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 10:17:02 INFO  CopySubNodeOpenKM:100 - Sub node have id = b3b3fe89-c400-4bff-aa96-f058b720991f has copy
+2021-08-19 10:17:03 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 10:17:03 INFO  CopySubNodeOpenKM:100 - Sub node have id = 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec has copy
+2021-08-19 10:17:03 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 10:17:03 INFO  AgentOpenKM:100 - Asset have id = 2cb588fb-8a30-4702-ba69-7cc2bc2db12b has copy
+2021-08-19 10:17:03 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 10:17:03 INFO  CopySubNodeOpenKM:100 - Sub node have id = 2cb588fb-8a30-4702-ba69-7cc2bc2db12b has copy
+2021-08-19 10:17:03 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 10:17:03 INFO  AgentOpenKM:100 - Asset have id = 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb has copy
+2021-08-19 10:17:04 INFO  CreateAssetsOpenKM:113 - response code:200
+2021-08-19 10:17:04 INFO  CreateAssetsOpenKM:115 - Sub node have id = 2cb588fb-8a30-4702-ba69-7cc2bc2db12b has copy
+2021-08-19 10:17:04 INFO  CreateAssetsOpenKM:113 - response code:200
+2021-08-19 10:17:04 INFO  CreateAssetsOpenKM:115 - Sub node have id = 28e5c7ac-21e5-487f-a722-3ff0cc9e50ec has copy
+2021-08-19 10:17:04 INFO  AgentOpenKM:98 - response code:200
+2021-08-19 10:17:04 INFO  AgentOpenKM:100 - Asset have id = c247cce4-b6d7-434c-a8d1-5f2de24730b2 has copy
+2021-08-19 10:17:04 INFO  CreateAssetsOpenKM:113 - response code:200
+2021-08-19 10:17:04 INFO  CreateAssetsOpenKM:115 - Sub node have id = 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb has copy
+2021-08-19 10:17:04 INFO  CopySubNodeOpenKM:98 - response code:200
+2021-08-19 10:17:04 INFO  CopySubNodeOpenKM:100 - Sub node have id = 58ccdb9c-3b8b-4eb9-bd56-1014ea295aeb has copy

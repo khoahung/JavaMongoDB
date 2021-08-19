@@ -1,0 +1,2 @@
+templateScript: /cimb-poc-main/templates/components/dummy-component.ftl
+renderType: freemarker

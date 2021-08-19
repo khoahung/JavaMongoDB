@@ -11,13 +11,13 @@ import com.khoahung.cmc.entity.LogData;
 import com.khoahung.cmc.entity.OpenKM;
 
 public class OpenKMDao {
-	static final String JDBC_DRIVER = "org.mariadb.jdbc.Driver";
-    static final String DB_URL = "jdbc:mariadb://localhost:3307/mobile_db";
+	static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/mobile_db";
     static final String USER = "root";
     static final String PASS = "root";
     
     public List<OpenKM> findAll() throws Exception {
-		Class.forName("org.mariadb.jdbc.Driver");
+		Class.forName(JDBC_DRIVER);
 		Connection conn = DriverManager.getConnection( DB_URL, USER, PASS);
 		Statement stmt = conn.createStatement();
 		ResultSet rs = stmt.executeQuery("SELECT * FROM t_okm_mapping"); 

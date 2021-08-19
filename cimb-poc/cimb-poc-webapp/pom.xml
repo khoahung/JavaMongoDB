@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>info.magnolia.poc</groupId>
+    <artifactId>cimb-poc</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  <artifactId>cimb-poc-webapp</artifactId>
+  <name>cimb-poc: webapp</name>
+  <packaging>war</packaging>
+  <dependencies>
+    <!--
+     Add your project specific dependencies here:
+     A custom webapp typically is based on a magnolia webapp. The most simple and reduced bundle to start with is the "magnolia-empty-webapp" (see "option i" below).
+     To see a complete list of preconfigured Magnolia webapps, have a look at https://documentation.magnolia-cms.com/display/DOCS/Bundles+and+webapps
+     => Please just use one of the four below listed options!
+     Make sure to use the appropriate option (A or B) in the parent pom
+    -->
+
+   
+     <dependency>
+      <groupId>info.magnolia.dx</groupId>
+      <artifactId>magnolia-dx-core-webapp</artifactId>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.dx</groupId>
+      <artifactId>magnolia-dx-core-webapp</artifactId>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.poc</groupId>
+      <artifactId>cimb-poc-main</artifactId>
+    </dependency>
+
+    <dependency>
+        <groupId>info.magnolia.ui</groupId>
+        <artifactId>magnolia-ui-color-picker-field</artifactId>
+        <version>1.1.1</version> <!-- Magnolia 6.2 -->
+    </dependency>
+
+    <dependency>
+      <groupId>info.magnolia.core</groupId>
+      <artifactId>magnolia-virtual-uri</artifactId>
+      <version>6.2.11</version>
+    </dependency>
+
+    <dependency>
+      <groupId>info.magnolia.contenttags</groupId>
+      <artifactId>magnolia-content-tags-ui</artifactId>
+      <version>2.0.3</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/info.magnolia.pages/magnolia-spa-rendering -->
+    <dependency>
+      <groupId>info.magnolia.pages</groupId>
+      <artifactId>magnolia-spa-rendering</artifactId>
+      <version>6.2.10</version>
+    </dependency>
+    
+    <dependency>
+	  <groupId>info.magnolia.pages</groupId>
+	  <artifactId>magnolia-spa-rendering-extended</artifactId>
+	  <version>1.1</version>
+	</dependency>
+    
+    <!-- Magnolia travel demo that are not bundled by default. -->
+    <dependency>
+      <groupId>info.magnolia.demo</groupId>
+      <artifactId>magnolia-travel-demo</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.demo</groupId>
+      <artifactId>magnolia-travel-tours</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.eedemo</groupId>
+      <artifactId>magnolia-travel-demo-marketing-tags</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.eedemo</groupId>
+      <artifactId>magnolia-travel-demo-personalization</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.eedemo</groupId>
+      <artifactId>magnolia-travel-demo-component-personalization</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.eedemo</groupId>
+      <artifactId>magnolia-travel-demo-multisite</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.form</groupId>
+      <artifactId>magnolia-form</artifactId>
+      <version>2.7.3</version>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.form</groupId>
+      <artifactId>magnolia-form-compatibility</artifactId>
+      <version>2.7.2</version>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <configuration>
+          <!-- exclude jars copied "physically" from the webapp overlay - so we only get those resolved by Maven's dependency management -->
+          <dependentWarExcludes>WEB-INF/lib/*.jar</dependentWarExcludes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
