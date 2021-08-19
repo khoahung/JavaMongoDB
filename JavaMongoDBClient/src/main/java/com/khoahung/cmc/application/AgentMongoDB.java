@@ -41,10 +41,10 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
 
-class AgentMangolia extends Thread{
-	final static Logger logger = Logger.getLogger(AgentMangolia.class);
+class AgentMongoDB extends Thread{
+	final static Logger logger = Logger.getLogger(AgentMongoDB.class);
 	Properties properties;
-	public AgentMangolia(Properties p) {
+	public AgentMongoDB(Properties p) {
 		this.properties = p ;
 	}
 	public void run(){ 	
@@ -88,63 +88,8 @@ class AgentMangolia extends Thread{
 					
 					
 					for(Document doc : list) {
-						DataProperties dp = new DataProperties();
-						dp.setName(doc.getObjectId("_id").toHexString());
-						dp.setType("mgnl:asset");
-						dp.setPath("/"+properties.getProperty("asset_name")+"/"+doc.getObjectId("_id").toHexString());
-						
-						List<com.khoahung.cmc.entity.Properties> listP = new ArrayList();
-						com.khoahung.cmc.entity.Properties p1 = new com.khoahung.cmc.entity.Properties();
-						p1.setName("type");
-						p1.setType("String");
-						p1.setMultiple(false);
-						p1.setValues(Arrays.asList((String)doc.get("img_ext")));
-						listP.add(p1);
-						
-						com.khoahung.cmc.entity.Properties p2 = new com.khoahung.cmc.entity.Properties();
-						p2.setName("name");
-						p2.setType("String");
-						p2.setMultiple(false);
-						p2.setValues(Arrays.asList(doc.getObjectId("_id").toHexString()));
-						listP.add(p2);
-						
-						com.khoahung.cmc.entity.Properties p3 = new com.khoahung.cmc.entity.Properties();
-						p3.setName("title");
-						p3.setType("String");
-						p3.setMultiple(false);
-						p3.setValues(Arrays.asList("Asset create from MongoDB"));
-						listP.add(p3);
-						
-						dp.setProperties(listP);
-					
-						URL url = new URL(properties.getProperty("mangolia_url") + properties.getProperty("asset_name"));
-						HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-						String credentials = properties.getProperty("username") + ":" + properties.getProperty("password");
-						String basicAuth = Base64.getEncoder().encodeToString(credentials.getBytes(StandardCharsets.UTF_8));
-						conn.setRequestProperty("Authorization", "Basic " +  basicAuth);
-						
-						conn.setRequestMethod("PUT");
-						conn.setDoOutput(true);
-						conn.setDoInput(true);
-						conn.setConnectTimeout(60000); //60 secs
-						conn.setReadTimeout(60000); //60 secs
-						conn.setRequestProperty("Content-Type", "application/json");
-						conn.setRequestProperty("Accept", "application/json");
-					
-						OutputStreamWriter writer = new OutputStreamWriter(conn.getOutputStream());
-						String json = objMapper.writeValueAsString(dp);
-						writer.write(json);
-						writer.flush();
-						writer.close();
-						int responseCode = conn.getResponseCode();
-						logger.info("response code:"+responseCode);
-						if (100 <= responseCode && responseCode <= 399) {
-							 logger.info("Asset have id = "+doc.getObjectId("_id").toHexString()+" has copy");
-							CopySubNodeMangolia subNode = new CopySubNodeMangolia(doc, properties);
-							subNode.start();
-						}else {
-							logger.error("Asset have id = "+doc.getObjectId("_id").toHexString()+" create Error");
-						}  
+						CreateAssetsMongoDB assetsThread = new CreateAssetsMongoDB(doc, properties);
+						assetsThread.start();
 				        Thread.sleep(100);
 					}
 			        if(list.size() != 0) {

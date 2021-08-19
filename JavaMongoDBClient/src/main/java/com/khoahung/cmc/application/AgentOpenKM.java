@@ -46,65 +46,8 @@ public class AgentOpenKM extends Thread{
 					 logger.info(open.getOkm_hdpath()+ " has synchronize");
 					continue;
 				}
-				DataProperties dp = new DataProperties();
-				dp.setName(open.getOkm_hdpath());
-				dp.setType("mgnl:asset");
-				dp.setPath("/"+properties.getProperty("asset_name")+"/"+open.getOkm_hdpath());
-				
-				List<com.khoahung.cmc.entity.Properties> listP = new ArrayList();
-				com.khoahung.cmc.entity.Properties p1 = new com.khoahung.cmc.entity.Properties();
-				p1.setName("type");
-				p1.setType("String");
-				p1.setMultiple(false);
-				p1.setValues(Arrays.asList(open.getFile_name().split("\\.")[1]));
-				listP.add(p1);
-				
-				com.khoahung.cmc.entity.Properties p2 = new com.khoahung.cmc.entity.Properties();
-				p2.setName("name");
-				p2.setType("String");
-				p2.setMultiple(false);
-				p2.setValues(Arrays.asList(open.getOkm_hdpath()));
-				listP.add(p2);
-				
-				com.khoahung.cmc.entity.Properties p3 = new com.khoahung.cmc.entity.Properties();
-				p3.setName("title");
-				p3.setType("String");
-				p3.setMultiple(false);
-				p3.setValues(Arrays.asList("Asset create from OpenKM"));
-				listP.add(p3);
-				
-				dp.setProperties(listP);
-			
-				URL url = new URL(properties.getProperty("mangolia_url") + properties.getProperty("asset_name"));
-				HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-				String credentials = properties.getProperty("username") + ":" + properties.getProperty("password");
-				String basicAuth = Base64.getEncoder().encodeToString(credentials.getBytes(StandardCharsets.UTF_8));
-				conn.setRequestProperty("Authorization", "Basic " +  basicAuth);
-				
-				conn.setRequestMethod("PUT");
-				conn.setDoOutput(true);
-				conn.setDoInput(true);
-				conn.setConnectTimeout(60000); //60 secs
-				conn.setReadTimeout(60000); //60 secs
-				conn.setRequestProperty("Content-Type", "application/json");
-				conn.setRequestProperty("Accept", "application/json");
-			
-				OutputStreamWriter writer = new OutputStreamWriter(conn.getOutputStream());
-				String json = objMapper.writeValueAsString(dp);
-				writer.write(json);
-				writer.flush();
-				writer.close();
-				int responseCode = conn.getResponseCode();
-				logger.info("response code:"+responseCode);
-				if (100 <= responseCode && responseCode <= 399) {
-					logger.info("Asset have id = "+open.getOkm_hdpath()+" has copy");
-					CreateAssetsOpenKM assetsThread = new  CreateAssetsOpenKM(open, properties);
-					assetsThread.start();
-					CopySubNodeOpenKM subNode = new CopySubNodeOpenKM(open, properties);
-					subNode.start();
-				}else {
-					logger.error("Asset have id = "+open.getOkm_hdpath()+" create Error");
-				} 
+				CreateAssetsOpenKM assetsThread = new  CreateAssetsOpenKM(open, properties);
+				assetsThread.start();
 		        Thread.sleep(100);		        
 			}
 			 logger.info("==============Finish copy data===================");

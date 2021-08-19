@@ -15,7 +15,9 @@ import java.util.Properties;
 import org.apache.log4j.Logger;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.khoahung.cmc.dao.LogOpenKMDao;
 import com.khoahung.cmc.entity.AssetsDataProperties;
+import com.khoahung.cmc.entity.LogOpenKM;
 import com.khoahung.cmc.entity.OpenKM;
 
 public class CreateAssetsOpenKM extends Thread{
@@ -28,6 +30,7 @@ public class CreateAssetsOpenKM extends Thread{
 	}
 	public void run(){ 	
 		try {
+			LogOpenKMDao logOpenKMDao = new LogOpenKMDao();
 			ObjectMapper objMapper = new ObjectMapper();
 			AssetsDataProperties dp = new AssetsDataProperties();
 			dp.setName(open.getOkm_hdpath());
@@ -112,7 +115,10 @@ public class CreateAssetsOpenKM extends Thread{
 			int responseCode = conn.getResponseCode();
 			logger.info("response code:"+responseCode);
 			if (100 <= responseCode && responseCode <= 399) {
-				logger.info("Sub node have id = "+open.getOkm_hdpath()+" has copy");
+				logger.info("Assets node have id = "+open.getOkm_hdpath()+" has copy");
+				LogOpenKM log = new LogOpenKM();
+				log.setOkm_hdpath(open.getOkm_hdpath());
+				logOpenKMDao.save(log);
 			}else {
 				logger.error("Asset have id = "+open.getOkm_hdpath()+" create Error");
 			} 
