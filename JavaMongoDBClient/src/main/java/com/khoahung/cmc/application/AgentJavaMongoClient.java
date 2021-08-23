@@ -14,8 +14,8 @@ public class AgentJavaMongoClient {
 			Properties properties = new Properties();
 			properties.load(inputStream);
 
-			AgentMongoDB agentMongoDB = new AgentMongoDB(properties);
-			agentMongoDB.start();
+			//AgentMongoDB agentMongoDB = new AgentMongoDB(properties);
+			//agentMongoDB.start();
 			
 			AgentOpenKM openKm = new AgentOpenKM(properties);
 			openKm.start();

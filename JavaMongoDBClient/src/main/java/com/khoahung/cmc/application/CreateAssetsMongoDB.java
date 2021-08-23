@@ -17,7 +17,6 @@ import org.bson.types.Binary;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.khoahung.cmc.dao.LogProcessingDao;
 import com.khoahung.cmc.entity.AssetsDataProperties;
-import com.khoahung.cmc.entity.DataProperties;
 import com.khoahung.cmc.entity.LogData;
 
 public class CreateAssetsMongoDB extends Thread {

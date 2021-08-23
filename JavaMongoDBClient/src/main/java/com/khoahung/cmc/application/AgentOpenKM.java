@@ -19,7 +19,6 @@ import org.apache.log4j.Logger;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.khoahung.cmc.dao.LogOpenKMDao;
 import com.khoahung.cmc.dao.OpenKMDao;
-import com.khoahung.cmc.entity.DataProperties;
 import com.khoahung.cmc.entity.LogData;
 import com.khoahung.cmc.entity.LogOpenKM;
 import com.khoahung.cmc.entity.OpenKM;

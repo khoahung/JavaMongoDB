@@ -30,7 +30,6 @@ import org.springframework.web.client.RestTemplate;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.khoahung.cmc.dao.LogProcessingDao;
 import com.khoahung.cmc.entity.Data;
-import com.khoahung.cmc.entity.DataProperties;
 import com.khoahung.cmc.entity.LogData;
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
