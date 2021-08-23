@@ -6,8 +6,6 @@ import java.util.Properties;
 
 public class AgentJavaMongoClient {
 	public static void main(String[] args) {
-		//Agent agent = new Agent();
-		//agent.start();
 		try {
 			InputStream inputStream = AgentJavaMongoClient.class.getClassLoader().getResourceAsStream("config.properties");
 			// load properties from file
