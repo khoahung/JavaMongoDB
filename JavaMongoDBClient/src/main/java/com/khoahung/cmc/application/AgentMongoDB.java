@@ -60,7 +60,7 @@ class AgentMongoDB extends Thread{
 		MongoCollection<Document> collection  = database.getCollection("khoahung");
 		ObjectMapper objMapper = new ObjectMapper();
 		while(true) {
-			 logger.info("==============Starting Migration database===================");
+			logger.info("==============Starting Migration database===================");
 			try {					
 					FindIterable<Document> iterDoc = collection.find();
 					Iterator<Document> it = iterDoc.iterator();
@@ -80,7 +80,7 @@ class AgentMongoDB extends Thread{
 							list.add(d);
 						}
 						if(list.size()>=500) {
-							//send 1000 document to server;
+							//send 500 document to server;
 							break;
 						}
 					}
@@ -95,8 +95,7 @@ class AgentMongoDB extends Thread{
 			        	Thread.sleep(100);
 						continue;
 					}
-					 logger.info("==============Finish copy data===================");
-					
+					logger.info("==============Finish copy data===================");					
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
