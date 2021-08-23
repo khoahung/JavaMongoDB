@@ -1,2 +1,8 @@
 2021-08-23 11:18:14 INFO  CreateAssetsOpenKM:172 - response code:200
 2021-08-23 11:18:15 INFO  CreateAssetsOpenKM:174 - Assets node have id = 22e24a10-2ec6-435e-8ad6-53a5456634d6 has copy
+2021-08-23 11:26:01 INFO  AgentOpenKM:45 - 22e24a10-2ec6-435e-8ad6-53a5456634d6 has synchronize
+2021-08-23 11:26:42 INFO  CreateAssetsOpenKM:172 - response code:500
+2021-08-23 11:26:44 ERROR CreateAssetsOpenKM:179 - Asset have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 create Error
+2021-08-23 11:30:02 INFO  AgentOpenKM:45 - 22e24a10-2ec6-435e-8ad6-53a5456634d6 has synchronize
+2021-08-23 11:30:58 INFO  CreateAssetsOpenKM:172 - response code:200
+2021-08-23 11:31:01 INFO  CreateAssetsOpenKM:174 - Assets node have id = 90b0f7da-963f-4b7f-b438-79cff2c57480 has copy
